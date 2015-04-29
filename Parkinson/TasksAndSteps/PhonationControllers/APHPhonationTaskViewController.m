@@ -49,7 +49,7 @@ static NSString *const kMomentInDayFormatItemText               = @"When are you
 static NSString *const kMomentInDayFormatChoiceJustWokeUp       = @"Immediately before Parkinson medication";
 static NSString *const kMomentInDayFormatChoiceTookMyMedicine   = @"Just after Parkinson medication (at your best)";
 static NSString *const kMomentInDayFormatChoiceEvening          = @"Another time";
-static NSString *const kMomentInDayFormatChoiceNone             = @"I don't take Parkinson medications";
+static NSString *const kMomentInDayFormatChoiceNone             = @"I don\'t take Parkinson medications";
 static NSString *      kEnableMicrophoneMessage                 = @"You need to enable access to microphone.";
 
 static double kMinimumAmountOfTimeToShowSurvey = 20.0 * 60.0;
