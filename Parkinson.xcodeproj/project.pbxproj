@@ -7,26 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08F6D1B41AD6FA7200DFF268 /* PD_feedback.json in Resources */ = {isa = PBXBuildFile; fileRef = 08F6D1B21AD6FA7200DFF268 /* PD_feedback.json */; };
-		08F6D1B51AD6FA7200DFF268 /* PD_mythoughts.json in Resources */ = {isa = PBXBuildFile; fileRef = 08F6D1B31AD6FA7200DFF268 /* PD_mythoughts.json */; };
-		21CBD9E51A9FE59900031635 /* APHTasksAndSchedules_NoM7.json in Resources */ = {isa = PBXBuildFile; fileRef = 21CBD9E41A9FE59900031635 /* APHTasksAndSchedules_NoM7.json */; };
-		5A0F98FF1AA409FC00A2A7EB /* PDenrollment_survey.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F98FE1AA409FC00A2A7EB /* PDenrollment_survey.json */; };
 		5A0F99021AA40E9100A2A7EB /* APHenrollmentsurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F99011AA40E9100A2A7EB /* APHenrollmentsurveyViewController.m */; };
 		5A0F99171AA426D900A2A7EB /* APHmythougths.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F99161AA426D900A2A7EB /* APHmythougths.m */; };
 		5A0F991A1AA426F300A2A7EB /* APHfeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F99191AA426F300A2A7EB /* APHfeedback.m */; };
-		5B1095B91A9F9BD5006631F5 /* consent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5B1095B81A9F9BD5006631F5 /* consent.pdf */; };
-		5B18CED01A2CF2E5001A905E /* TermsAndConditions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B18CECF1A2CF2E5001A905E /* TermsAndConditions.json */; };
 		5B18CEF71A2D3A57001A905E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B18CEF61A2D3A56001A905E /* MapKit.framework */; };
-		5B1D9D451A1BCC6B000F4AD6 /* APHDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D9D401A1BCC6B000F4AD6 /* APHDashboard.storyboard */; };
 		5B1D9D461A1BCC6B000F4AD6 /* APHDashboardEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D9D421A1BCC6B000F4AD6 /* APHDashboardEditViewController.m */; };
 		5B1D9D471A1BCC6B000F4AD6 /* APHDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */; };
 		5B29CE5419D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */; };
-		5B975A161A112E2C00A34E42 /* Learn.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B975A141A112E2C00A34E42 /* Learn.json */; };
-		5B975A171A112E2C00A34E42 /* WithdrawStudy.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B975A151A112E2C00A34E42 /* WithdrawStudy.json */; };
-		5BAC201019D5FEC600451AAE /* StudyOverview.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BAC200F19D5FEC600451AAE /* StudyOverview.json */; };
-		5BBDAEBF1A33DFDA0047DF87 /* HTMLContent in Resources */ = {isa = PBXBuildFile; fileRef = 5BBDAEBE1A33DFDA0047DF87 /* HTMLContent */; };
-		5BBDAEF21A350FB40047DF87 /* LocationInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BBDAEF11A350FB40047DF87 /* LocationInfo.json */; };
-		743BFFFF1A90E12800438241 /* APHConsentSection.json in Resources */ = {isa = PBXBuildFile; fileRef = 743BFFFE1A90E12800438241 /* APHConsentSection.json */; };
 		745DB4391ADB0B380007C484 /* libPDScores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745DB4361ADB09F70007C484 /* libPDScores.a */; };
 		74B713EB1AC0722D00FE2553 /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B713A41ABF04B900FE2553 /* BridgeSDK.framework */; };
 		74B713EC1AC0722D00FE2553 /* BridgeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74B713A41ABF04B900FE2553 /* BridgeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -35,6 +22,66 @@
 		74B713F71AC0722E00FE2553 /* APCAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743AD0CC1ABE2DE40071C218 /* APCAppCore.framework */; };
 		74B713F81AC0722E00FE2553 /* APCAppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 743AD0CC1ABE2DE40071C218 /* APCAppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B9898CA1A926F36003B4181 /* APHProfileExtender.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9898C91A926F36003B4181 /* APHProfileExtender.m */; };
+		80C3BA7D1B0237B7005EB005 /* APHOnboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA7F1B0237B7005EB005 /* APHOnboarding.storyboard */; };
+		80C3BA8A1B0237DE005EB005 /* APHDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA8C1B0237DE005EB005 /* APHDashboard.storyboard */; };
+		80C3BA8D1B02384A005EB005 /* APHConsentSection.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA8F1B02384A005EB005 /* APHConsentSection.json */; };
+		80C3BA901B023850005EB005 /* LocationInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA921B023850005EB005 /* LocationInfo.json */; };
+		80C3BA931B023855005EB005 /* TermsAndConditions.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA951B023855005EB005 /* TermsAndConditions.json */; };
+		80C3BA961B02385B005EB005 /* Learn.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA981B02385B005EB005 /* Learn.json */; };
+		80C3BA991B023863005EB005 /* WithdrawStudy.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA9B1B023863005EB005 /* WithdrawStudy.json */; };
+		80C3BA9C1B023886005EB005 /* StudyOverview.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BA9E1B023886005EB005 /* StudyOverview.json */; };
+		80C3BA9F1B023890005EB005 /* APHTasksAndSchedules.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAA11B023890005EB005 /* APHTasksAndSchedules.json */; };
+		80C3BAA21B023898005EB005 /* APHTasksAndSchedules_NoM7.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAA41B023898005EB005 /* APHTasksAndSchedules_NoM7.json */; };
+		80C3BAA51B0238E8005EB005 /* PD_feedback.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAA71B0238E8005EB005 /* PD_feedback.json */; };
+		80C3BAA81B0238ED005EB005 /* PD_mythoughts.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAAA1B0238ED005EB005 /* PD_mythoughts.json */; };
+		80C3BAAB1B0238F1005EB005 /* PDenrollment_survey.json in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAAD1B0238F1005EB005 /* PDenrollment_survey.json */; };
+		80C3BAAE1B023972005EB005 /* consent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAB01B023972005EB005 /* consent.pdf */; };
+		80C3BAF21B024318005EB005 /* asthma_document.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAC41B024318005EB005 /* asthma_document.png */; };
+		80C3BAF41B024318005EB005 /* consent_section_PD.css in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAC61B024318005EB005 /* consent_section_PD.css */; };
+		80C3BAF61B024318005EB005 /* disease_information_top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAC81B024318005EB005 /* disease_information_top.jpg */; };
+		80C3BAF71B024318005EB005 /* disease_information_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAC91B024318005EB005 /* disease_information_top.png */; };
+		80C3BAFC1B024318005EB005 /* institution.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BACE1B024318005EB005 /* institution.png */; };
+		80C3BAFD1B024318005EB005 /* Intro_section_PD.css in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BACF1B024318005EB005 /* Intro_section_PD.css */; };
+		80C3BAFE1B024318005EB005 /* Learn_section_PD.css in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAD01B024318005EB005 /* Learn_section_PD.css */; };
+		80C3BB001B024318005EB005 /* lifemap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAD21B024318005EB005 /* lifemap.jpg */; };
+		80C3BB031B024318005EB005 /* online_resources_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAD51B024318005EB005 /* online_resources_top.png */; };
+		80C3BB051B024318005EB005 /* PDrochester.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAD71B024318005EB005 /* PDrochester.jpg */; };
+		80C3BB061B024318005EB005 /* PDvideo_cover.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BAD81B024318005EB005 /* PDvideo_cover.PNG */; };
+		80C3BB081B024318005EB005 /* Sage_Bionetworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BADA1B024318005EB005 /* Sage_Bionetworks.jpg */; };
+		80C3BB0A1B024318005EB005 /* symptoms_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BADC1B024318005EB005 /* symptoms_top.png */; };
+		80C3BB0B1B024318005EB005 /* treatment_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BADD1B024318005EB005 /* treatment_top.png */; };
+		80C3BB0E1B02433E005EB005 /* 10study_task.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB101B02433E005EB005 /* 10study_task.html */; };
+		80C3BB111B024342005EB005 /* 11withdrawing.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB131B024342005EB005 /* 11withdrawing.html */; };
+		80C3BB141B024348005EB005 /* 12potentialbenefits1.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB161B024348005EB005 /* 12potentialbenefits1.html */; };
+		80C3BB171B02434F005EB005 /* 13issues_survey.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB191B02434F005EB005 /* 13issues_survey.html */; };
+		80C3BB1A1B024353005EB005 /* 14issues_mood.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB1C1B024353005EB005 /* 14issues_mood.html */; };
+		80C3BB1D1B02435B005EB005 /* 15privacy_risk.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB1F1B02435B005EB005 /* 15privacy_risk.html */; };
+		80C3BB201B024360005EB005 /* 15sharing_rsch.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB221B024360005EB005 /* 15sharing_rsch.html */; };
+		80C3BB231B024364005EB005 /* 1welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB251B024364005EB005 /* 1welcome.html */; };
+		80C3BB261B024368005EB005 /* 2quiz_headsup.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB281B024368005EB005 /* 2quiz_headsup.html */; };
+		80C3BB291B02436C005EB005 /* 3activities.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB2B1B02436C005EB005 /* 3activities.html */; };
+		80C3BB2C1B024371005EB005 /* 4sensordata.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB2E1B024371005EB005 /* 4sensordata.html */; };
+		80C3BB2F1B024376005EB005 /* 5dataprocessing.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB311B024376005EB005 /* 5dataprocessing.html */; };
+		80C3BB321B02437A005EB005 /* 6protectingdata.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB341B02437A005EB005 /* 6protectingdata.html */; };
+		80C3BB351B02437E005EB005 /* 7datause.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB371B02437E005EB005 /* 7datause.html */; };
+		80C3BB381B024382005EB005 /* 8time.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB3A1B024382005EB005 /* 8time.html */; };
+		80C3BB3B1B024386005EB005 /* 9study_survey.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB3D1B024386005EB005 /* 9study_survey.html */; };
+		80C3BB3E1B02438B005EB005 /* AboutStudy.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB401B02438B005EB005 /* AboutStudy.html */; };
+		80C3BB411B024391005EB005 /* AboutStudy_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB431B024391005EB005 /* AboutStudy_intro.html */; };
+		80C3BB441B02439F005EB005 /* consent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB461B02439F005EB005 /* consent.pdf */; };
+		80C3BB471B0243B4005EB005 /* consentvideo_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB491B0243B4005EB005 /* consentvideo_intro.html */; };
+		80C3BB4A1B0243C2005EB005 /* EligibleToParticipate.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB4C1B0243C2005EB005 /* EligibleToParticipate.html */; };
+		80C3BB4D1B0243CB005EB005 /* feedback_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB4F1B0243CB005EB005 /* feedback_intro.html */; };
+		80C3BB501B0243D1005EB005 /* howstudyworks.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB521B0243D1005EB005 /* howstudyworks.html */; };
+		80C3BB531B0243D5005EB005 /* howstudyworks_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB551B0243D5005EB005 /* howstudyworks_intro.html */; };
+		80C3BB561B0243EA005EB005 /* learnmore_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB581B0243EA005EB005 /* learnmore_overview.html */; };
+		80C3BB591B024400005EB005 /* lifewithPD.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB5B1B024400005EB005 /* lifewithPD.html */; };
+		80C3BB5C1B024417005EB005 /* online_resources.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB5E1B024417005EB005 /* online_resources.html */; };
+		80C3BB5F1B024423005EB005 /* PD_fullconsent.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB611B024423005EB005 /* PD_fullconsent.html */; };
+		80C3BB621B024436005EB005 /* PrivacyPolicy.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB641B024436005EB005 /* PrivacyPolicy.html */; };
+		80C3BB651B024448005EB005 /* symptoms.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB671B024448005EB005 /* symptoms.html */; };
+		80C3BB681B024453005EB005 /* whoisrunning.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB6A1B024453005EB005 /* whoisrunning.html */; };
+		80C3BB6B1B024459005EB005 /* whoisrunning_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3BB6D1B024459005EB005 /* whoisrunning_intro.html */; };
 		A74615B31A98077D00323AD1 /* ConverterForPDScores.m in Sources */ = {isa = PBXBuildFile; fileRef = A74615B21A98077D00323AD1 /* ConverterForPDScores.m */; };
 		A781166F1A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78116601A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v */; };
 		A78116701A96BC9400CEC822 /* 01_Activities_to_SensorData@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78116611A96BC9400CEC822 /* 01_Activities_to_SensorData@2x.m4v */; };
@@ -62,14 +109,12 @@
 		F584909A19E892700091A640 /* Intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F584909919E892700091A640 /* Intro.mp4 */; };
 		F5C11A2F19DCBE95003278FF /* APCParameters.json in Resources */ = {isa = PBXBuildFile; fileRef = F5C11A2E19DCBE95003278FF /* APCParameters.json */; };
 		F5C1DC2019D22E6F006527EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C1DC1F19D22E6F006527EA /* Main.storyboard */; };
-		F5D14E4319CC991500650FBB /* APHTasksAndSchedules.json in Resources */ = {isa = PBXBuildFile; fileRef = F5D14E4019CC991500650FBB /* APHTasksAndSchedules.json */; };
 		F5D14EDC19CC9BA700650FBB /* NSString+CustomMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D14ED419CC9BA700650FBB /* NSString+CustomMethods.m */; };
 		F5D14F2319CC9BC900650FBB /* APHIntervalTappingTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D14EF419CC9BC900650FBB /* APHIntervalTappingTaskViewController.m */; };
 		F5D14F2719CC9BC900650FBB /* APHPhonationTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D14EFD19CC9BC900650FBB /* APHPhonationTaskViewController.m */; };
 		F5D14F3519CC9BC900650FBB /* APHWalkingTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D14F1819CC9BC900650FBB /* APHWalkingTaskViewController.m */; };
 		F5D14F3919CC9C0000650FBB /* APHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D14F3819CC9C0000650FBB /* APHAppDelegate.m */; };
 		F5DCAD3E19D088330096DEC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DCAD3D19D088330096DEC0 /* LaunchScreen.xib */; };
-		F5EFE0A019EC39B1008BAD56 /* APHOnboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EFE09F19EC39B1008BAD56 /* APHOnboarding.storyboard */; };
 		F5F32C7C19D0D4C1007F9015 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA2ABB519A7C229000DB961 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -191,38 +236,86 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08F6D1B21AD6FA7200DFF268 /* PD_feedback.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PD_feedback.json; sourceTree = "<group>"; };
-		08F6D1B31AD6FA7200DFF268 /* PD_mythoughts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PD_mythoughts.json; sourceTree = "<group>"; };
-		21CBD9E41A9FE59900031635 /* APHTasksAndSchedules_NoM7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APHTasksAndSchedules_NoM7.json; sourceTree = "<group>"; };
-		5A0F98FE1AA409FC00A2A7EB /* PDenrollment_survey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PDenrollment_survey.json; sourceTree = "<group>"; };
 		5A0F99001AA40E9100A2A7EB /* APHenrollmentsurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHenrollmentsurveyViewController.h; sourceTree = "<group>"; };
 		5A0F99011AA40E9100A2A7EB /* APHenrollmentsurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHenrollmentsurveyViewController.m; sourceTree = "<group>"; };
 		5A0F99151AA426D900A2A7EB /* APHmythougths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHmythougths.h; sourceTree = "<group>"; };
 		5A0F99161AA426D900A2A7EB /* APHmythougths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHmythougths.m; sourceTree = "<group>"; };
 		5A0F99181AA426F300A2A7EB /* APHfeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHfeedback.h; sourceTree = "<group>"; };
 		5A0F99191AA426F300A2A7EB /* APHfeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHfeedback.m; sourceTree = "<group>"; };
-		5B1095B81A9F9BD5006631F5 /* consent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = consent.pdf; sourceTree = "<group>"; };
-		5B18CECF1A2CF2E5001A905E /* TermsAndConditions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TermsAndConditions.json; sourceTree = "<group>"; };
 		5B18CEF61A2D3A56001A905E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		5B1D9D401A1BCC6B000F4AD6 /* APHDashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APHDashboard.storyboard; sourceTree = "<group>"; };
 		5B1D9D411A1BCC6B000F4AD6 /* APHDashboardEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHDashboardEditViewController.h; sourceTree = "<group>"; };
 		5B1D9D421A1BCC6B000F4AD6 /* APHDashboardEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardEditViewController.m; sourceTree = "<group>"; };
 		5B1D9D431A1BCC6B000F4AD6 /* APHDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHDashboardViewController.h; sourceTree = "<group>"; };
 		5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardViewController.m; sourceTree = "<group>"; };
 		5B29CE5219D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHInclusionCriteriaViewController.h; sourceTree = "<group>"; };
 		5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHInclusionCriteriaViewController.m; sourceTree = "<group>"; };
-		5B975A141A112E2C00A34E42 /* Learn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Learn.json; sourceTree = "<group>"; };
-		5B975A151A112E2C00A34E42 /* WithdrawStudy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WithdrawStudy.json; sourceTree = "<group>"; };
-		5BAC200F19D5FEC600451AAE /* StudyOverview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StudyOverview.json; sourceTree = "<group>"; };
-		5BBDAEBE1A33DFDA0047DF87 /* HTMLContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTMLContent; sourceTree = "<group>"; };
-		5BBDAEF11A350FB40047DF87 /* LocationInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LocationInfo.json; sourceTree = "<group>"; };
-		743BFFFE1A90E12800438241 /* APHConsentSection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APHConsentSection.json; sourceTree = "<group>"; };
 		745DB4301ADB09F70007C484 /* PDScores.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PDScores.xcodeproj; path = PDScores/PDScores/PDScores.xcodeproj; sourceTree = SOURCE_ROOT; };
 		747F5B671ABE2D3200197B68 /* APCAppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = APCAppCore.xcodeproj; path = ../AppCore/APCAppCore/APCAppCore.xcodeproj; sourceTree = "<group>"; };
 		747F5B721ABE2D3E00197B68 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../researchkit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		74B713981ABF04B900FE2553 /* BridgeSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BridgeSDK.xcodeproj; path = BridgeSDK/BridgeSDK.xcodeproj; sourceTree = SOURCE_ROOT; };
 		7B9898C81A926F36003B4181 /* APHProfileExtender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHProfileExtender.h; sourceTree = "<group>"; };
 		7B9898C91A926F36003B4181 /* APHProfileExtender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHProfileExtender.m; sourceTree = "<group>"; };
+		80C3BA7E1B0237B7005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/APHOnboarding.storyboard; sourceTree = "<group>"; };
+		80C3BA8B1B0237DE005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/APHDashboard.storyboard; sourceTree = "<group>"; };
+		80C3BA8E1B02384A005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/APHConsentSection.json; sourceTree = "<group>"; };
+		80C3BA911B023850005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/LocationInfo.json; sourceTree = "<group>"; };
+		80C3BA941B023855005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/TermsAndConditions.json; sourceTree = "<group>"; };
+		80C3BA971B02385B005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/Learn.json; sourceTree = "<group>"; };
+		80C3BA9A1B023863005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/WithdrawStudy.json; sourceTree = "<group>"; };
+		80C3BA9D1B023886005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/StudyOverview.json; sourceTree = "<group>"; };
+		80C3BAA01B023890005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/APHTasksAndSchedules.json; sourceTree = "<group>"; };
+		80C3BAA31B023898005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/APHTasksAndSchedules_NoM7.json; sourceTree = "<group>"; };
+		80C3BAA61B0238E8005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/PD_feedback.json; sourceTree = "<group>"; };
+		80C3BAA91B0238ED005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/PD_mythoughts.json; sourceTree = "<group>"; };
+		80C3BAAC1B0238F1005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/PDenrollment_survey.json; sourceTree = "<group>"; };
+		80C3BAAF1B023972005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/consent.pdf; sourceTree = "<group>"; };
+		80C3BAC41B024318005EB005 /* asthma_document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthma_document.png; sourceTree = "<group>"; };
+		80C3BAC61B024318005EB005 /* consent_section_PD.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = consent_section_PD.css; sourceTree = "<group>"; };
+		80C3BAC81B024318005EB005 /* disease_information_top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disease_information_top.jpg; sourceTree = "<group>"; };
+		80C3BAC91B024318005EB005 /* disease_information_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disease_information_top.png; sourceTree = "<group>"; };
+		80C3BACE1B024318005EB005 /* institution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = institution.png; sourceTree = "<group>"; };
+		80C3BACF1B024318005EB005 /* Intro_section_PD.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Intro_section_PD.css; sourceTree = "<group>"; };
+		80C3BAD01B024318005EB005 /* Learn_section_PD.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Learn_section_PD.css; sourceTree = "<group>"; };
+		80C3BAD21B024318005EB005 /* lifemap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lifemap.jpg; sourceTree = "<group>"; };
+		80C3BAD51B024318005EB005 /* online_resources_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online_resources_top.png; sourceTree = "<group>"; };
+		80C3BAD71B024318005EB005 /* PDrochester.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PDrochester.jpg; sourceTree = "<group>"; };
+		80C3BAD81B024318005EB005 /* PDvideo_cover.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PDvideo_cover.PNG; sourceTree = "<group>"; };
+		80C3BADA1B024318005EB005 /* Sage_Bionetworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sage_Bionetworks.jpg; sourceTree = "<group>"; };
+		80C3BADC1B024318005EB005 /* symptoms_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symptoms_top.png; sourceTree = "<group>"; };
+		80C3BADD1B024318005EB005 /* treatment_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treatment_top.png; sourceTree = "<group>"; };
+		80C3BB0F1B02433E005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/10study_task.html; sourceTree = "<group>"; };
+		80C3BB121B024342005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/11withdrawing.html; sourceTree = "<group>"; };
+		80C3BB151B024348005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/12potentialbenefits1.html; sourceTree = "<group>"; };
+		80C3BB181B02434F005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/13issues_survey.html; sourceTree = "<group>"; };
+		80C3BB1B1B024353005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/14issues_mood.html; sourceTree = "<group>"; };
+		80C3BB1E1B02435B005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/15privacy_risk.html; sourceTree = "<group>"; };
+		80C3BB211B024360005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/15sharing_rsch.html; sourceTree = "<group>"; };
+		80C3BB241B024364005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/1welcome.html; sourceTree = "<group>"; };
+		80C3BB271B024368005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/2quiz_headsup.html; sourceTree = "<group>"; };
+		80C3BB2A1B02436C005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/3activities.html; sourceTree = "<group>"; };
+		80C3BB2D1B024371005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/4sensordata.html; sourceTree = "<group>"; };
+		80C3BB301B024376005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/5dataprocessing.html; sourceTree = "<group>"; };
+		80C3BB331B02437A005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/6protectingdata.html; sourceTree = "<group>"; };
+		80C3BB361B02437E005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/7datause.html; sourceTree = "<group>"; };
+		80C3BB391B024382005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/8time.html; sourceTree = "<group>"; };
+		80C3BB3C1B024386005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/9study_survey.html; sourceTree = "<group>"; };
+		80C3BB3F1B02438B005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/AboutStudy.html; sourceTree = "<group>"; };
+		80C3BB421B024391005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/AboutStudy_intro.html; sourceTree = "<group>"; };
+		80C3BB451B02439F005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/consent.pdf; sourceTree = "<group>"; };
+		80C3BB481B0243B4005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/consentvideo_intro.html; sourceTree = "<group>"; };
+		80C3BB4B1B0243C2005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/EligibleToParticipate.html; sourceTree = "<group>"; };
+		80C3BB4E1B0243CB005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/feedback_intro.html; sourceTree = "<group>"; };
+		80C3BB511B0243D1005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/howstudyworks.html; sourceTree = "<group>"; };
+		80C3BB541B0243D5005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/howstudyworks_intro.html; sourceTree = "<group>"; };
+		80C3BB571B0243EA005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/learnmore_overview.html; sourceTree = "<group>"; };
+		80C3BB5A1B024400005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/lifewithPD.html; sourceTree = "<group>"; };
+		80C3BB5D1B024417005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/online_resources.html; sourceTree = "<group>"; };
+		80C3BB601B024423005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/PD_fullconsent.html; sourceTree = "<group>"; };
+		80C3BB631B024436005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/PrivacyPolicy.html; sourceTree = "<group>"; };
+		80C3BB661B024448005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/symptoms.html; sourceTree = "<group>"; };
+		80C3BB691B024453005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/whoisrunning.html; sourceTree = "<group>"; };
+		80C3BB6C1B024459005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/whoisrunning_intro.html; sourceTree = "<group>"; };
+		80C3BB6E1B024482005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		A74615B11A98077D00323AD1 /* ConverterForPDScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterForPDScores.h; sourceTree = "<group>"; };
 		A74615B21A98077D00323AD1 /* ConverterForPDScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterForPDScores.m; sourceTree = "<group>"; };
 		A78116601A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_Blank_to_Activities@2x.m4v"; sourceTree = "<group>"; };
@@ -246,7 +339,6 @@
 		CFA2ABBD19A7C3C2000DB961 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CFA2ABBF19A7C3EB000DB961 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CFC2D2D719A5417D00170E69 /* Parkinson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkinson.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFC2D2DB19A5417D00170E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC2D2DC19A5417D00170E69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFC2D2E719A5417D00170E69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Parkinson/Images.xcassets; sourceTree = "<group>"; };
 		CFDA47A61A97BF8800B32C34 /* APHMedicationTrackerTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APHMedicationTrackerTaskViewController.h; path = MedicationTracking/APHMedicationTrackerTaskViewController.h; sourceTree = "<group>"; };
@@ -258,7 +350,6 @@
 		F584909919E892700091A640 /* Intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Intro.mp4; sourceTree = "<group>"; };
 		F5C11A2E19DCBE95003278FF /* APCParameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APCParameters.json; sourceTree = "<group>"; };
 		F5C1DC1F19D22E6F006527EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F5D14E4019CC991500650FBB /* APHTasksAndSchedules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APHTasksAndSchedules.json; sourceTree = "<group>"; };
 		F5D14ED319CC9BA700650FBB /* NSString+CustomMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CustomMethods.h"; sourceTree = "<group>"; };
 		F5D14ED419CC9BA700650FBB /* NSString+CustomMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CustomMethods.m"; sourceTree = "<group>"; };
 		F5D14EF319CC9BC900650FBB /* APHIntervalTappingTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHIntervalTappingTaskViewController.h; sourceTree = "<group>"; };
@@ -270,7 +361,6 @@
 		F5D14F3719CC9C0000650FBB /* APHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHAppDelegate.h; sourceTree = "<group>"; };
 		F5D14F3819CC9C0000650FBB /* APHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHAppDelegate.m; sourceTree = "<group>"; };
 		F5DCAD3D19D088330096DEC0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		F5EFE09F19EC39B1008BAD56 /* APHOnboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APHOnboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				5B1095B71A9F9BD5006631F5 /* PDF */,
-				5BBDAEBE1A33DFDA0047DF87 /* HTMLContent */,
+				80C3BAB11B024318005EB005 /* HTMLContent */,
 				F5D14E3F19CC991500650FBB /* JSONs */,
 				F536B93C19F5747B005A2D1C /* Tasks */,
 				F584909819E892700091A640 /* Videos */,
@@ -308,9 +398,9 @@
 		5A0F98FA1AA409EF00A2A7EB /* surveys */ = {
 			isa = PBXGroup;
 			children = (
-				08F6D1B21AD6FA7200DFF268 /* PD_feedback.json */,
-				08F6D1B31AD6FA7200DFF268 /* PD_mythoughts.json */,
-				5A0F98FE1AA409FC00A2A7EB /* PDenrollment_survey.json */,
+				80C3BAA71B0238E8005EB005 /* PD_feedback.json */,
+				80C3BAAA1B0238ED005EB005 /* PD_mythoughts.json */,
+				80C3BAAD1B0238F1005EB005 /* PDenrollment_survey.json */,
 			);
 			path = surveys;
 			sourceTree = "<group>";
@@ -331,7 +421,7 @@
 		5B1095B71A9F9BD5006631F5 /* PDF */ = {
 			isa = PBXGroup;
 			children = (
-				5B1095B81A9F9BD5006631F5 /* consent.pdf */,
+				80C3BAB01B023972005EB005 /* consent.pdf */,
 			);
 			path = PDF;
 			sourceTree = "<group>";
@@ -339,7 +429,7 @@
 		5B1D9D3F1A1BCC6B000F4AD6 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				5B1D9D401A1BCC6B000F4AD6 /* APHDashboard.storyboard */,
+				80C3BA8C1B0237DE005EB005 /* APHDashboard.storyboard */,
 				5B1D9D431A1BCC6B000F4AD6 /* APHDashboardViewController.h */,
 				5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */,
 				5B1D9D411A1BCC6B000F4AD6 /* APHDashboardEditViewController.h */,
@@ -383,6 +473,60 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		80C3BAB11B024318005EB005 /* HTMLContent */ = {
+			isa = PBXGroup;
+			children = (
+				80C3BB101B02433E005EB005 /* 10study_task.html */,
+				80C3BB131B024342005EB005 /* 11withdrawing.html */,
+				80C3BB161B024348005EB005 /* 12potentialbenefits1.html */,
+				80C3BB191B02434F005EB005 /* 13issues_survey.html */,
+				80C3BB1C1B024353005EB005 /* 14issues_mood.html */,
+				80C3BB1F1B02435B005EB005 /* 15privacy_risk.html */,
+				80C3BB221B024360005EB005 /* 15sharing_rsch.html */,
+				80C3BB251B024364005EB005 /* 1welcome.html */,
+				80C3BB281B024368005EB005 /* 2quiz_headsup.html */,
+				80C3BB2B1B02436C005EB005 /* 3activities.html */,
+				80C3BB2E1B024371005EB005 /* 4sensordata.html */,
+				80C3BB311B024376005EB005 /* 5dataprocessing.html */,
+				80C3BB341B02437A005EB005 /* 6protectingdata.html */,
+				80C3BB371B02437E005EB005 /* 7datause.html */,
+				80C3BB3A1B024382005EB005 /* 8time.html */,
+				80C3BB3D1B024386005EB005 /* 9study_survey.html */,
+				80C3BB401B02438B005EB005 /* AboutStudy.html */,
+				80C3BB431B024391005EB005 /* AboutStudy_intro.html */,
+				80C3BAC41B024318005EB005 /* asthma_document.png */,
+				80C3BB461B02439F005EB005 /* consent.pdf */,
+				80C3BAC61B024318005EB005 /* consent_section_PD.css */,
+				80C3BB491B0243B4005EB005 /* consentvideo_intro.html */,
+				80C3BAC81B024318005EB005 /* disease_information_top.jpg */,
+				80C3BAC91B024318005EB005 /* disease_information_top.png */,
+				80C3BB4C1B0243C2005EB005 /* EligibleToParticipate.html */,
+				80C3BB4F1B0243CB005EB005 /* feedback_intro.html */,
+				80C3BB521B0243D1005EB005 /* howstudyworks.html */,
+				80C3BB551B0243D5005EB005 /* howstudyworks_intro.html */,
+				80C3BACE1B024318005EB005 /* institution.png */,
+				80C3BACF1B024318005EB005 /* Intro_section_PD.css */,
+				80C3BAD01B024318005EB005 /* Learn_section_PD.css */,
+				80C3BB581B0243EA005EB005 /* learnmore_overview.html */,
+				80C3BAD21B024318005EB005 /* lifemap.jpg */,
+				80C3BB5B1B024400005EB005 /* lifewithPD.html */,
+				80C3BB5E1B024417005EB005 /* online_resources.html */,
+				80C3BAD51B024318005EB005 /* online_resources_top.png */,
+				80C3BB611B024423005EB005 /* PD_fullconsent.html */,
+				80C3BAD71B024318005EB005 /* PDrochester.jpg */,
+				80C3BAD81B024318005EB005 /* PDvideo_cover.PNG */,
+				80C3BB641B024436005EB005 /* PrivacyPolicy.html */,
+				80C3BADA1B024318005EB005 /* Sage_Bionetworks.jpg */,
+				80C3BB671B024448005EB005 /* symptoms.html */,
+				80C3BADC1B024318005EB005 /* symptoms_top.png */,
+				80C3BADD1B024318005EB005 /* treatment_top.png */,
+				80C3BB6A1B024453005EB005 /* whoisrunning.html */,
+				80C3BB6D1B024459005EB005 /* whoisrunning_intro.html */,
+			);
+			name = HTMLContent;
+			path = Parkinson/Resources/HTMLContent;
+			sourceTree = SOURCE_ROOT;
 		};
 		A781165E1A96BC9400CEC822 /* Consent */ = {
 			isa = PBXGroup;
@@ -474,7 +618,7 @@
 			isa = PBXGroup;
 			children = (
 				F5241CA819AEA5110098A4DF /* Parkinson.entitlements */,
-				CFC2D2DB19A5417D00170E69 /* Info.plist */,
+				80C3BB6F1B024482005EB005 /* Info.plist */,
 				CFC2D2DC19A5417D00170E69 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -519,15 +663,15 @@
 			isa = PBXGroup;
 			children = (
 				5A0F98FA1AA409EF00A2A7EB /* surveys */,
-				743BFFFE1A90E12800438241 /* APHConsentSection.json */,
-				5BBDAEF11A350FB40047DF87 /* LocationInfo.json */,
-				5B18CECF1A2CF2E5001A905E /* TermsAndConditions.json */,
-				5B975A141A112E2C00A34E42 /* Learn.json */,
-				5B975A151A112E2C00A34E42 /* WithdrawStudy.json */,
+				80C3BA8F1B02384A005EB005 /* APHConsentSection.json */,
+				80C3BA921B023850005EB005 /* LocationInfo.json */,
+				80C3BA951B023855005EB005 /* TermsAndConditions.json */,
+				80C3BA981B02385B005EB005 /* Learn.json */,
+				80C3BA9B1B023863005EB005 /* WithdrawStudy.json */,
 				F5C11A2E19DCBE95003278FF /* APCParameters.json */,
-				5BAC200F19D5FEC600451AAE /* StudyOverview.json */,
-				F5D14E4019CC991500650FBB /* APHTasksAndSchedules.json */,
-				21CBD9E41A9FE59900031635 /* APHTasksAndSchedules_NoM7.json */,
+				80C3BA9E1B023886005EB005 /* StudyOverview.json */,
+				80C3BAA11B023890005EB005 /* APHTasksAndSchedules.json */,
+				80C3BAA41B023898005EB005 /* APHTasksAndSchedules_NoM7.json */,
 			);
 			path = JSONs;
 			sourceTree = "<group>";
@@ -535,7 +679,7 @@
 		F5D14E7719CC9B8100650FBB /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				F5EFE09F19EC39B1008BAD56 /* APHOnboarding.storyboard */,
+				80C3BA7F1B0237B7005EB005 /* APHOnboarding.storyboard */,
 				5B29CE5219D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.h */,
 				5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */,
 			);
@@ -780,41 +924,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D14E4319CC991500650FBB /* APHTasksAndSchedules.json in Resources */,
-				5BBDAEBF1A33DFDA0047DF87 /* HTMLContent in Resources */,
+				80C3BB0E1B02433E005EB005 /* 10study_task.html in Resources */,
+				80C3BA9F1B023890005EB005 /* APHTasksAndSchedules.json in Resources */,
 				A78116791A96BC9400CEC822 /* 10_PotentialBenifits@3x.m4v in Resources */,
+				80C3BAF61B024318005EB005 /* disease_information_top.jpg in Resources */,
+				80C3BB111B024342005EB005 /* 11withdrawing.html in Resources */,
 				F5C1DC2019D22E6F006527EA /* Main.storyboard in Resources */,
 				A781167C1A96BC9400CEC822 /* 13_RiskToPrivacy@3x.m4v in Resources */,
-				743BFFFF1A90E12800438241 /* APHConsentSection.json in Resources */,
-				5BAC201019D5FEC600451AAE /* StudyOverview.json in Resources */,
-				F5EFE0A019EC39B1008BAD56 /* APHOnboarding.storyboard in Resources */,
+				80C3BB5C1B024417005EB005 /* online_resources.html in Resources */,
+				80C3BAF21B024318005EB005 /* asthma_document.png in Resources */,
+				80C3BA8D1B02384A005EB005 /* APHConsentSection.json in Resources */,
+				80C3BB291B02436C005EB005 /* 3activities.html in Resources */,
+				80C3BA9C1B023886005EB005 /* StudyOverview.json in Resources */,
+				80C3BB5F1B024423005EB005 /* PD_fullconsent.html in Resources */,
+				80C3BB2F1B024376005EB005 /* 5dataprocessing.html in Resources */,
+				80C3BB0A1B024318005EB005 /* symptoms_top.png in Resources */,
+				80C3BA7D1B0237B7005EB005 /* APHOnboarding.storyboard in Resources */,
+				80C3BB6B1B024459005EB005 /* whoisrunning_intro.html in Resources */,
+				80C3BB681B024453005EB005 /* whoisrunning.html in Resources */,
+				80C3BB141B024348005EB005 /* 12potentialbenefits1.html in Resources */,
 				A78116701A96BC9400CEC822 /* 01_Activities_to_SensorData@2x.m4v in Resources */,
-				08F6D1B41AD6FA7200DFF268 /* PD_feedback.json in Resources */,
+				80C3BB321B02437A005EB005 /* 6protectingdata.html in Resources */,
+				80C3BAA51B0238E8005EB005 /* PD_feedback.json in Resources */,
 				A78116721A96BC9400CEC822 /* 10_PotentialBenifits@2x.m4v in Resources */,
 				A78116741A96BC9400CEC822 /* 12_IssuesToConside2@2x.m4v in Resources */,
+				80C3BB531B0243D5005EB005 /* howstudyworks_intro.html in Resources */,
+				80C3BB081B024318005EB005 /* Sage_Bionetworks.jpg in Resources */,
+				80C3BB001B024318005EB005 /* lifemap.jpg in Resources */,
 				A78116711A96BC9400CEC822 /* 02_SensorData_to_DataGathering@2x.m4v in Resources */,
 				F584909A19E892700091A640 /* Intro.mp4 in Resources */,
-				5B18CED01A2CF2E5001A905E /* TermsAndConditions.json in Resources */,
+				80C3BA931B023855005EB005 /* TermsAndConditions.json in Resources */,
+				80C3BAF41B024318005EB005 /* consent_section_PD.css in Resources */,
+				80C3BAFC1B024318005EB005 /* institution.png in Resources */,
 				A781167B1A96BC9400CEC822 /* 12_IssuesToConside2@3x.m4v in Resources */,
+				80C3BB201B024360005EB005 /* 15sharing_rsch.html in Resources */,
+				80C3BB1D1B02435B005EB005 /* 15privacy_risk.html in Resources */,
+				80C3BB3E1B02438B005EB005 /* AboutStudy.html in Resources */,
+				80C3BAF71B024318005EB005 /* disease_information_top.png in Resources */,
+				80C3BAFD1B024318005EB005 /* Intro_section_PD.css in Resources */,
+				80C3BB0B1B024318005EB005 /* treatment_top.png in Resources */,
 				A78116781A96BC9400CEC822 /* 02_SensorData_to_DataGathering@3x.m4v in Resources */,
-				21CBD9E51A9FE59900031635 /* APHTasksAndSchedules_NoM7.json in Resources */,
-				5B1095B91A9F9BD5006631F5 /* consent.pdf in Resources */,
-				08F6D1B51AD6FA7200DFF268 /* PD_mythoughts.json in Resources */,
+				80C3BAA21B023898005EB005 /* APHTasksAndSchedules_NoM7.json in Resources */,
+				80C3BB501B0243D1005EB005 /* howstudyworks.html in Resources */,
+				80C3BB4D1B0243CB005EB005 /* feedback_intro.html in Resources */,
+				80C3BB441B02439F005EB005 /* consent.pdf in Resources */,
+				80C3BB171B02434F005EB005 /* 13issues_survey.html in Resources */,
+				80C3BAAE1B023972005EB005 /* consent.pdf in Resources */,
+				80C3BB2C1B024371005EB005 /* 4sensordata.html in Resources */,
+				80C3BAA81B0238ED005EB005 /* PD_mythoughts.json in Resources */,
+				80C3BB261B024368005EB005 /* 2quiz_headsup.html in Resources */,
 				A78116751A96BC9400CEC822 /* 13_RiskToPrivacy@2x.m4v in Resources */,
+				80C3BB621B024436005EB005 /* PrivacyPolicy.html in Resources */,
+				80C3BAFE1B024318005EB005 /* Learn_section_PD.css in Resources */,
 				F536B93E19F5747B005A2D1C /* sample.task in Resources */,
-				5B975A161A112E2C00A34E42 /* Learn.json in Resources */,
+				80C3BA961B02385B005EB005 /* Learn.json in Resources */,
 				F5C11A2F19DCBE95003278FF /* APCParameters.json in Resources */,
+				80C3BB411B024391005EB005 /* AboutStudy_intro.html in Resources */,
 				F5DCAD3E19D088330096DEC0 /* LaunchScreen.xib in Resources */,
-				5B1D9D451A1BCC6B000F4AD6 /* APHDashboard.storyboard in Resources */,
+				80C3BB061B024318005EB005 /* PDvideo_cover.PNG in Resources */,
+				80C3BA8A1B0237DE005EB005 /* APHDashboard.storyboard in Resources */,
 				A78116761A96BC9400CEC822 /* 00_Blank_to_Activities@3x.m4v in Resources */,
-				5B975A171A112E2C00A34E42 /* WithdrawStudy.json in Resources */,
+				80C3BA991B023863005EB005 /* WithdrawStudy.json in Resources */,
 				A781166F1A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v in Resources */,
 				A78116771A96BC9400CEC822 /* 01_Activities_to_SensorData@3x.m4v in Resources */,
-				5BBDAEF21A350FB40047DF87 /* LocationInfo.json in Resources */,
+				80C3BA901B023850005EB005 /* LocationInfo.json in Resources */,
+				80C3BB651B024448005EB005 /* symptoms.html in Resources */,
+				80C3BB051B024318005EB005 /* PDrochester.jpg in Resources */,
+				80C3BB031B024318005EB005 /* online_resources_top.png in Resources */,
+				80C3BB471B0243B4005EB005 /* consentvideo_intro.html in Resources */,
 				A781167A1A96BC9400CEC822 /* 11_IssuesToConsider1@3x.m4v in Resources */,
 				A78116731A96BC9400CEC822 /* 11_IssuesToConsider1@2x.m4v in Resources */,
-				5A0F98FF1AA409FC00A2A7EB /* PDenrollment_survey.json in Resources */,
+				80C3BB1A1B024353005EB005 /* 14issues_mood.html in Resources */,
+				80C3BAAB1B0238F1005EB005 /* PDenrollment_survey.json in Resources */,
 				CFC2D2E819A5417D00170E69 /* Images.xcassets in Resources */,
+				80C3BB3B1B024386005EB005 /* 9study_survey.html in Resources */,
+				80C3BB381B024382005EB005 /* 8time.html in Resources */,
+				80C3BB351B02437E005EB005 /* 7datause.html in Resources */,
+				80C3BB561B0243EA005EB005 /* learnmore_overview.html in Resources */,
+				80C3BB231B024364005EB005 /* 1welcome.html in Resources */,
+				80C3BB591B024400005EB005 /* lifewithPD.html in Resources */,
+				80C3BB4A1B0243C2005EB005 /* EligibleToParticipate.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,6 +1068,385 @@
 			targetProxy = 74B713F91AC0722E00FE2553 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80C3BA7F1B0237B7005EB005 /* APHOnboarding.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA7E1B0237B7005EB005 /* Base */,
+			);
+			name = APHOnboarding.storyboard;
+			sourceTree = "<group>";
+		};
+		80C3BA8C1B0237DE005EB005 /* APHDashboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA8B1B0237DE005EB005 /* Base */,
+			);
+			name = APHDashboard.storyboard;
+			sourceTree = "<group>";
+		};
+		80C3BA8F1B02384A005EB005 /* APHConsentSection.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA8E1B02384A005EB005 /* Base */,
+			);
+			name = APHConsentSection.json;
+			sourceTree = "<group>";
+		};
+		80C3BA921B023850005EB005 /* LocationInfo.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA911B023850005EB005 /* Base */,
+			);
+			name = LocationInfo.json;
+			sourceTree = "<group>";
+		};
+		80C3BA951B023855005EB005 /* TermsAndConditions.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA941B023855005EB005 /* Base */,
+			);
+			name = TermsAndConditions.json;
+			sourceTree = "<group>";
+		};
+		80C3BA981B02385B005EB005 /* Learn.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA971B02385B005EB005 /* Base */,
+			);
+			name = Learn.json;
+			sourceTree = "<group>";
+		};
+		80C3BA9B1B023863005EB005 /* WithdrawStudy.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA9A1B023863005EB005 /* Base */,
+			);
+			name = WithdrawStudy.json;
+			sourceTree = "<group>";
+		};
+		80C3BA9E1B023886005EB005 /* StudyOverview.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BA9D1B023886005EB005 /* Base */,
+			);
+			name = StudyOverview.json;
+			sourceTree = "<group>";
+		};
+		80C3BAA11B023890005EB005 /* APHTasksAndSchedules.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BAA01B023890005EB005 /* Base */,
+			);
+			name = APHTasksAndSchedules.json;
+			sourceTree = "<group>";
+		};
+		80C3BAA41B023898005EB005 /* APHTasksAndSchedules_NoM7.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BAA31B023898005EB005 /* Base */,
+			);
+			name = APHTasksAndSchedules_NoM7.json;
+			sourceTree = "<group>";
+		};
+		80C3BAA71B0238E8005EB005 /* PD_feedback.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BAA61B0238E8005EB005 /* Base */,
+			);
+			name = PD_feedback.json;
+			sourceTree = "<group>";
+		};
+		80C3BAAA1B0238ED005EB005 /* PD_mythoughts.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BAA91B0238ED005EB005 /* Base */,
+			);
+			name = PD_mythoughts.json;
+			sourceTree = "<group>";
+		};
+		80C3BAAD1B0238F1005EB005 /* PDenrollment_survey.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BAAC1B0238F1005EB005 /* Base */,
+			);
+			name = PDenrollment_survey.json;
+			sourceTree = "<group>";
+		};
+		80C3BAB01B023972005EB005 /* consent.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BAAF1B023972005EB005 /* Base */,
+			);
+			name = consent.pdf;
+			sourceTree = "<group>";
+		};
+		80C3BB101B02433E005EB005 /* 10study_task.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB0F1B02433E005EB005 /* Base */,
+			);
+			name = 10study_task.html;
+			sourceTree = "<group>";
+		};
+		80C3BB131B024342005EB005 /* 11withdrawing.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB121B024342005EB005 /* Base */,
+			);
+			name = 11withdrawing.html;
+			sourceTree = "<group>";
+		};
+		80C3BB161B024348005EB005 /* 12potentialbenefits1.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB151B024348005EB005 /* Base */,
+			);
+			name = 12potentialbenefits1.html;
+			sourceTree = "<group>";
+		};
+		80C3BB191B02434F005EB005 /* 13issues_survey.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB181B02434F005EB005 /* Base */,
+			);
+			name = 13issues_survey.html;
+			sourceTree = "<group>";
+		};
+		80C3BB1C1B024353005EB005 /* 14issues_mood.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB1B1B024353005EB005 /* Base */,
+			);
+			name = 14issues_mood.html;
+			sourceTree = "<group>";
+		};
+		80C3BB1F1B02435B005EB005 /* 15privacy_risk.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB1E1B02435B005EB005 /* Base */,
+			);
+			name = 15privacy_risk.html;
+			sourceTree = "<group>";
+		};
+		80C3BB221B024360005EB005 /* 15sharing_rsch.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB211B024360005EB005 /* Base */,
+			);
+			name = 15sharing_rsch.html;
+			sourceTree = "<group>";
+		};
+		80C3BB251B024364005EB005 /* 1welcome.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB241B024364005EB005 /* Base */,
+			);
+			name = 1welcome.html;
+			sourceTree = "<group>";
+		};
+		80C3BB281B024368005EB005 /* 2quiz_headsup.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB271B024368005EB005 /* Base */,
+			);
+			name = 2quiz_headsup.html;
+			sourceTree = "<group>";
+		};
+		80C3BB2B1B02436C005EB005 /* 3activities.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB2A1B02436C005EB005 /* Base */,
+			);
+			name = 3activities.html;
+			sourceTree = "<group>";
+		};
+		80C3BB2E1B024371005EB005 /* 4sensordata.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB2D1B024371005EB005 /* Base */,
+			);
+			name = 4sensordata.html;
+			sourceTree = "<group>";
+		};
+		80C3BB311B024376005EB005 /* 5dataprocessing.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB301B024376005EB005 /* Base */,
+			);
+			name = 5dataprocessing.html;
+			sourceTree = "<group>";
+		};
+		80C3BB341B02437A005EB005 /* 6protectingdata.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB331B02437A005EB005 /* Base */,
+			);
+			name = 6protectingdata.html;
+			sourceTree = "<group>";
+		};
+		80C3BB371B02437E005EB005 /* 7datause.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB361B02437E005EB005 /* Base */,
+			);
+			name = 7datause.html;
+			sourceTree = "<group>";
+		};
+		80C3BB3A1B024382005EB005 /* 8time.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB391B024382005EB005 /* Base */,
+			);
+			name = 8time.html;
+			sourceTree = "<group>";
+		};
+		80C3BB3D1B024386005EB005 /* 9study_survey.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB3C1B024386005EB005 /* Base */,
+			);
+			name = 9study_survey.html;
+			sourceTree = "<group>";
+		};
+		80C3BB401B02438B005EB005 /* AboutStudy.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB3F1B02438B005EB005 /* Base */,
+			);
+			name = AboutStudy.html;
+			sourceTree = "<group>";
+		};
+		80C3BB431B024391005EB005 /* AboutStudy_intro.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB421B024391005EB005 /* Base */,
+			);
+			name = AboutStudy_intro.html;
+			sourceTree = "<group>";
+		};
+		80C3BB461B02439F005EB005 /* consent.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB451B02439F005EB005 /* Base */,
+			);
+			name = consent.pdf;
+			sourceTree = "<group>";
+		};
+		80C3BB491B0243B4005EB005 /* consentvideo_intro.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB481B0243B4005EB005 /* Base */,
+			);
+			name = consentvideo_intro.html;
+			sourceTree = "<group>";
+		};
+		80C3BB4C1B0243C2005EB005 /* EligibleToParticipate.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB4B1B0243C2005EB005 /* Base */,
+			);
+			name = EligibleToParticipate.html;
+			sourceTree = "<group>";
+		};
+		80C3BB4F1B0243CB005EB005 /* feedback_intro.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB4E1B0243CB005EB005 /* Base */,
+			);
+			name = feedback_intro.html;
+			sourceTree = "<group>";
+		};
+		80C3BB521B0243D1005EB005 /* howstudyworks.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB511B0243D1005EB005 /* Base */,
+			);
+			name = howstudyworks.html;
+			sourceTree = "<group>";
+		};
+		80C3BB551B0243D5005EB005 /* howstudyworks_intro.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB541B0243D5005EB005 /* Base */,
+			);
+			name = howstudyworks_intro.html;
+			sourceTree = "<group>";
+		};
+		80C3BB581B0243EA005EB005 /* learnmore_overview.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB571B0243EA005EB005 /* Base */,
+			);
+			name = learnmore_overview.html;
+			sourceTree = "<group>";
+		};
+		80C3BB5B1B024400005EB005 /* lifewithPD.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB5A1B024400005EB005 /* Base */,
+			);
+			name = lifewithPD.html;
+			sourceTree = "<group>";
+		};
+		80C3BB5E1B024417005EB005 /* online_resources.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB5D1B024417005EB005 /* Base */,
+			);
+			name = online_resources.html;
+			sourceTree = "<group>";
+		};
+		80C3BB611B024423005EB005 /* PD_fullconsent.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB601B024423005EB005 /* Base */,
+			);
+			name = PD_fullconsent.html;
+			sourceTree = "<group>";
+		};
+		80C3BB641B024436005EB005 /* PrivacyPolicy.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB631B024436005EB005 /* Base */,
+			);
+			name = PrivacyPolicy.html;
+			sourceTree = "<group>";
+		};
+		80C3BB671B024448005EB005 /* symptoms.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB661B024448005EB005 /* Base */,
+			);
+			name = symptoms.html;
+			sourceTree = "<group>";
+		};
+		80C3BB6A1B024453005EB005 /* whoisrunning.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB691B024453005EB005 /* Base */,
+			);
+			name = whoisrunning.html;
+			sourceTree = "<group>";
+		};
+		80C3BB6D1B024459005EB005 /* whoisrunning_intro.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB6C1B024459005EB005 /* Base */,
+			);
+			name = whoisrunning_intro.html;
+			sourceTree = "<group>";
+		};
+		80C3BB6F1B024482005EB005 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C3BB6E1B024482005EB005 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		362454EE1A7FE267007BA94B /* DebugAndSendToDataVerificationServer */ = {
