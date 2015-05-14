@@ -257,7 +257,7 @@
 		60CAA8BB1B03C59A00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/10study_task.html; sourceTree = "<group>"; };
 		60CAA8C61B03C5A100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/11withdrawing.html; sourceTree = "<group>"; };
 		60CAA8C71B03C5A700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/12potentialbenefits1.html; sourceTree = "<group>"; };
-		60CAA8C81B03C5AE00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/APHConsentSection.json; sourceTree = "<group>"; };
+		60CAA8C81B03C5AE00DE3305 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nl; path = nl.lproj/APHConsentSection.json; sourceTree = "<group>"; };
 		60CAA8C91B03C5B300DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/LocationInfo.json; sourceTree = "<group>"; };
 		60CAA8CA1B03C5B600DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/TermsAndConditions.json; sourceTree = "<group>"; };
 		60CAA8CB1B03C5C700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/Learn.json; sourceTree = "<group>"; };
