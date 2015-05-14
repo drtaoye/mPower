@@ -1,0 +1,23 @@
+{
+    "options":
+    [
+     {
+     "option":"Dit onderzoek nam te veel tijd in beslag.",
+     },
+     {
+     "option":"Het onderzoek biedt mij onvoldoende voordelen om verder te gaan.",
+     },
+     {
+     "option":"Sommige onderdelen van dit onderzoek vind ik te lastig om uit te voeren.",
+     },
+     {
+     "option":"Ik trek me terug om persoonlijke redenen die niets met dit onderzoek te maken hebben.",
+     },
+     {
+     "option":"Ik geef liever niet aan waarom ik me terugtrek.",
+     },
+     {
+     "option":"Geef in uw eigen woorden aan waarom u zich uit dit onderzoek wilt terugtrekken.",
+     },
+    ]
+}

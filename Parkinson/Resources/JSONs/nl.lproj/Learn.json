@@ -1,0 +1,55 @@
+{
+    "items": [
+        {
+            "section_title": "",
+            "row_items": [
+                          
+                          {
+                          "title":"Over dit onderzoek",
+                          "details":"AboutStudy",
+                          "icon_image":"paperplus_icon",
+                          "tint_color" : "blue"
+                          },
+                          
+                          {
+                          "title":"Hoe dit onderzoek werkt",
+                          "details":"howstudyworks",
+                          "icon_image":"rulerpencil_icon",
+                          "tint_color" : "purple"
+                          },
+                          
+                          {
+                          "title":"Wie kan er deelnemen?",
+                          "details":"EligibleToParticipate",
+                          "icon_image":"clipboard_icon",
+                          "tint_color" : "green"
+                          },
+                          {
+                          "title":"Door wie wordt dit onderzoek uitgevoerd?",
+                          "details":"whoisrunning",
+                          "icon_image":"stethescope_icon",
+                          "tint_color" : "yellow"
+                          },
+                          
+                        {
+                            "title": "Leven met de ziekte van Parkinson",
+                            "details": "lifewithPD",
+                            "icon_image": "disease_icon",
+                            "tint_color": "appColor"
+                        },
+                        {
+                            "title": "Symptomen",
+                            "details": "symptoms",
+                            "icon_image": "diagnostics_icon",
+                            "tint_color": "green"
+                        },
+                        {
+                            "title": "Online informatiebronnen",
+                            "details": "online_resources",
+                            "icon_image": "globe_icon",
+                            "tint_color": "gray"
+                        }
+            ]
+        }
+    ]
+}

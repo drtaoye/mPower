@@ -1,0 +1,172 @@
+{
+    "documentProperties" :
+    {
+        "htmlDocument" : "PD_fullconsent",
+        "investigatorShortDescription": "Sage Bionetworks",
+        "investigatorLongDescription": "Sage Bionetworks en haar partners",
+        "htmlContent": "15sharing_rsch"
+    },
+    "quiz":
+    {
+        "questions":
+        [
+            {
+                "identifier": "instruction",
+                "prompt": "Begrip",
+                "text": "We stellen u nu een paar eenvoudige vragen om na te gaan of u weet wat het onderzoek inhoudt.",
+                "type": "instruction"
+            },
+            {
+                "identifier": "purpose",
+                "prompt": "Wat is het doel van dit onderzoek?",
+                "type": "singleChoiceText",
+                "textChoices":
+                [
+                 "Understand the fluctuations of Parkinson disease symptoms",
+                 "Treating Parkinson disease"
+                ],
+                "expectedAnswer": "0"
+            },
+            {
+                "identifier": "deidentified",
+                "prompt": "Mijn naam wordt samen met mijn onderzoeksgegevens opgeslagen.",
+                "type": "boolean",
+                "expectedAnswer": "false"
+            },
+            {
+                "identifier": "access",
+                "prompt": "Ik kan aangeven dat ik mijn gecodeerde onderzoeksgegevens selectief of breed wil delen.",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            },
+            {
+                "identifier": "skipSurvey",
+                "prompt": "Ik kan vragen in een vragenlijst overslaan.",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            },
+            {
+                "identifier": "stopParticipating",
+                "prompt": "Ik kan me op elk moment terugtrekken.",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            }
+        ],
+        "failureTitle": "Opnieuw",
+        "failureMessage": "Helaas hebt u een of meer vragen fout beantwoord. U kunt teruggaan naar het begin van de samenvatting om meer informatie over het onderzoek te krijgen.",
+        "successTitle": "Uitstekend!",
+        "successMessage": "U hebt alle vragen goed beantwoord. \nTik op 'Volgende' om door te gaan.",
+        "allowedFailures": "0"
+
+    },
+    "sections":
+    [
+     {
+         "sectionType" : "onlyInDocument",
+         "sectionHtmlContent" : "PD_fullconsent"
+     },
+     {
+         "sectionType" : "overview",
+         "sectionSummary" : "In deze beknopte samenvatting wordt beschreven wat het doel van het onderzoek is en wat er van u wordt verwacht. Aan het einde van de samenvatting kunt u aangeven of u aan het onderzoek wilt deelnemen.",
+         "sectionHtmlContent" : "1welcome"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "We testen uw begrip",
+         "sectionSummary": "Aan het einde van deze samenvatting stellen we u een paar vragen over de details van het onderzoek.",
+        "sectionImage": "quiz_image",
+        "sectionHtmlContent" : "2quiz_headsup"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Activiteiten",
+         "sectionSummary": "Om een beter inzicht te krijgen in uw gezondheid, zullen wij u vragen om enkele eenvoudige activiteiten uit te voeren en vragenlijsten in te vullen.",
+         "sectionHtmlContent" : "3activities",
+         "sectionImage": "00_Blank_to_Activities",
+         "sectionAnimationUrl": "00_Blank_to_Activities"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Sensorgegevens",
+         "sectionSummary": "Met dit onderzoek kunnen ook sensorgegevens van uw iPhone en andere persoonlijke apparaten worden verzameld. Deze gegevens worden alleen met uw toestemming verzameld.",
+         "sectionHtmlContent" : "4sensordata",
+         "sectionImage": "01_Activities_to_SensorData",
+         "sectionAnimationUrl":"01_Activities_to_SensorData"
+     },
+     {
+         "sectionType" : "dataGathering",
+         "sectionTitle": "Verwerking van gegevens",
+         "sectionSummary" : "Uw onderzoeksgegevens (vragenlijsten, activiteiten en sensorgegevens) worden gecombineerd met de onderzoeksgegevens van andere deelnemers.",
+         "sectionHtmlContent" : "5dataprocessing",
+         "sectionAnimationUrl":"02_SensorData_to_DataGathering"
+     },
+     {
+         "sectionType" : "privacy",
+         "sectionTitle": "Beveiliging van uw gegevens",
+         "sectionSummary": "Uw naam wordt vervangen door een willekeurige code. De gecodeerde gegevens worden gecodeerd opgeslagen op een beveiligde Cloud-server die onder toezicht van Sage Bionetworks staat om onbevoegde toegang te voorkomen.",
+         "sectionHtmlContent" : "6protectingdata"
+     },
+     {
+         "sectionType" : "dataUse",
+         "sectionTitle": "Gegevensgebruik",
+         "sectionSummary": "Uw gecodeerde gegevens worden gebruikt voor onderzoek en kunnen worden gedeeld met andere onderzoekers over de hele wereld.",
+         "sectionHtmlContent" : "7datause"
+     },
+     {
+         "sectionType" : "timeCommitment",
+         "sectionTitle" : "Punten van overweging",
+         "sectionSummary": "Dit onderzoek vergt per dag ongeveer 20 minuten van uw tijd.",
+         "sectionHtmlContent" : "8time"
+     },
+     {
+         "sectionType" : "studySurvey",
+         "sectionTitle" : "Vragenlijst onderzoek",
+         "sectionSummary": "We zullen u ook vragen om elke week en maand korte vragenlijsten over uw symptomen in te vullen om eventuele veranderingen bij te houden.",
+         "sectionHtmlContent" : "9study_survey"
+     },
+     {
+         "sectionType" : "studyTasks",
+         "sectionTitle" : "Onderzoeksactiviteiten",
+         "sectionSummary": "We vragen u om bepaalde activiteiten uit te voeren, zoals het lopen van een paar stappen terwijl u uw iPhone vasthoudt of gebruikt.",
+         "sectionHtmlContent" : "10study_task"
+     },
+     {
+         "sectionType" : "withdrawing",
+         "sectionTitle" : "Terugtrekken",
+         "sectionSummary" : "Uw deelname is geheel vrijwillig. U kunt op elk moment uw toestemming intrekken en uw deelname aan het onderzoek beëindigen.",
+         "sectionHtmlContent" : "11withdrawing"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Potentiële voordelen",
+         "sectionSummary": "U kunt uw gegevens visualiseren en zo mogelijk een beter beeld krijgen van het verloop van uw gezondheid.",
+         "sectionHtmlContent" : "12potentialbenefits1",
+         "sectionImage": "10_PotentialBenifits",
+         "sectionAnimationUrl":"10_PotentialBenifits"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Punten van overweging",
+         "sectionSummary": "Dit onderzoek is geen behandelingsonderzoek. Sommige vragen kunnen voor u ongemakkelijk zijn. Die vragen kunt u gewoon overslaan.",
+         "sectionHtmlContent" : "13issues_survey",
+         "sectionImage": "11_IssuesToConsider1",
+         "sectionAnimationUrl":"11_IssuesToConsider1"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Punten van overweging",
+         "sectionSummary": "Deelname aan dit onderzoek kan allerlei emoties oproepen.",
+         "sectionHtmlContent" : "14issues_mood",
+         "sectionImage": "12_IssuesToConsider2",
+         "sectionAnimationUrl":"12_IssuesToConside2"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Gevaar voor privacy",
+         "sectionSummary": "Hoewel we alles in het werk stellen om uw gegevens te beschermen, kunnen we volledige anonimiteit niet garanderen.",
+         "sectionHtmlContent" : "15privacy_risk",
+         "sectionImage": "13_RiskToPrivacy",
+         "sectionAnimationUrl":"13_RiskToPrivacy"
+     }
+ ]
+}

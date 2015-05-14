@@ -14,6 +14,8 @@
 		5B1D9D461A1BCC6B000F4AD6 /* APHDashboardEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D9D421A1BCC6B000F4AD6 /* APHDashboardEditViewController.m */; };
 		5B1D9D471A1BCC6B000F4AD6 /* APHDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */; };
 		5B29CE5419D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */; };
+		60CAA8B21B03C43D00DE3305 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60CAA8B41B03C43D00DE3305 /* Localizable.strings */; };
+		60CAA8F11B03C89700DE3305 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CAA8F01B03C89700DE3305 /* Info.plist */; };
 		745DB4391ADB0B380007C484 /* libPDScores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745DB4361ADB09F70007C484 /* libPDScores.a */; };
 		74B713EB1AC0722D00FE2553 /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B713A41ABF04B900FE2553 /* BridgeSDK.framework */; };
 		74B713EC1AC0722D00FE2553 /* BridgeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74B713A41ABF04B900FE2553 /* BridgeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -249,6 +251,51 @@
 		5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardViewController.m; sourceTree = "<group>"; };
 		5B29CE5219D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHInclusionCriteriaViewController.h; sourceTree = "<group>"; };
 		5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHInclusionCriteriaViewController.m; sourceTree = "<group>"; };
+		60CAA8B31B03C43D00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		60CAA8B51B03C43E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHOnboarding.strings; sourceTree = "<group>"; };
+		60CAA8B61B03C43E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHDashboard.strings; sourceTree = "<group>"; };
+		60CAA8BB1B03C59A00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/10study_task.html; sourceTree = "<group>"; };
+		60CAA8C61B03C5A100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/11withdrawing.html; sourceTree = "<group>"; };
+		60CAA8C71B03C5A700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/12potentialbenefits1.html; sourceTree = "<group>"; };
+		60CAA8C81B03C5AE00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/APHConsentSection.json; sourceTree = "<group>"; };
+		60CAA8C91B03C5B300DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/LocationInfo.json; sourceTree = "<group>"; };
+		60CAA8CA1B03C5B600DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/TermsAndConditions.json; sourceTree = "<group>"; };
+		60CAA8CB1B03C5C700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/Learn.json; sourceTree = "<group>"; };
+		60CAA8CC1B03C5CC00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/WithdrawStudy.json; sourceTree = "<group>"; };
+		60CAA8CD1B03C5D900DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/StudyOverview.json; sourceTree = "<group>"; };
+		60CAA8CE1B03C5DE00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/APHTasksAndSchedules.json; sourceTree = "<group>"; };
+		60CAA8CF1B03C5E300DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/APHTasksAndSchedules_NoM7.json; sourceTree = "<group>"; };
+		60CAA8D01B03C5EA00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/13issues_survey.html; sourceTree = "<group>"; };
+		60CAA8D11B03C5EE00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/14issues_mood.html; sourceTree = "<group>"; };
+		60CAA8D21B03C5F100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/15privacy_risk.html; sourceTree = "<group>"; };
+		60CAA8D31B03C5F600DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/15sharing_rsch.html; sourceTree = "<group>"; };
+		60CAA8D41B03C5FA00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/1welcome.html; sourceTree = "<group>"; };
+		60CAA8D51B03C60100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/2quiz_headsup.html; sourceTree = "<group>"; };
+		60CAA8D61B03C60500DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/3activities.html; sourceTree = "<group>"; };
+		60CAA8D71B03C60A00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/4sensordata.html; sourceTree = "<group>"; };
+		60CAA8D81B03C61000DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/5dataprocessing.html; sourceTree = "<group>"; };
+		60CAA8D91B03C61500DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/6protectingdata.html; sourceTree = "<group>"; };
+		60CAA8DA1B03C61900DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/7datause.html; sourceTree = "<group>"; };
+		60CAA8DB1B03C61E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/8time.html; sourceTree = "<group>"; };
+		60CAA8DC1B03C62100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/9study_survey.html; sourceTree = "<group>"; };
+		60CAA8DD1B03C62600DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/AboutStudy.html; sourceTree = "<group>"; };
+		60CAA8DE1B03C62B00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/AboutStudy_intro.html; sourceTree = "<group>"; };
+		60CAA8DF1B03C63400DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = nl; path = nl.lproj/consent.pdf; sourceTree = "<group>"; };
+		60CAA8E01B03C63E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/consentvideo_intro.html; sourceTree = "<group>"; };
+		60CAA8E11B03C64700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/EligibleToParticipate.html; sourceTree = "<group>"; };
+		60CAA8E21B03C64C00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/feedback_intro.html; sourceTree = "<group>"; };
+		60CAA8E31B03C65000DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/howstudyworks.html; sourceTree = "<group>"; };
+		60CAA8E41B03C65500DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/howstudyworks_intro.html; sourceTree = "<group>"; };
+		60CAA8E51B03C66500DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/learnmore_overview.html; sourceTree = "<group>"; };
+		60CAA8E61B03C67100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/lifewithPD.html; sourceTree = "<group>"; };
+		60CAA8E71B03C67500DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/online_resources.html; sourceTree = "<group>"; };
+		60CAA8E81B03C67B00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/PD_fullconsent.html; sourceTree = "<group>"; };
+		60CAA8E91B03C68300DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/PrivacyPolicy.html; sourceTree = "<group>"; };
+		60CAA8EA1B03C68800DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/symptoms.html; sourceTree = "<group>"; };
+		60CAA8EB1B03C69000DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/whoisrunning.html; sourceTree = "<group>"; };
+		60CAA8EC1B03C69500DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/whoisrunning_intro.html; sourceTree = "<group>"; };
+		60CAA8ED1B03C69C00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = nl; path = nl.lproj/consent.pdf; sourceTree = "<group>"; };
+		60CAA8F01B03C89700DE3305 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745DB4301ADB09F70007C484 /* PDScores.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PDScores.xcodeproj; path = PDScores/PDScores/PDScores.xcodeproj; sourceTree = SOURCE_ROOT; };
 		747F5B671ABE2D3200197B68 /* APCAppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = APCAppCore.xcodeproj; path = ../AppCore/APCAppCore/APCAppCore.xcodeproj; sourceTree = "<group>"; };
 		747F5B721ABE2D3E00197B68 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../researchkit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
@@ -315,7 +362,6 @@
 		80C3BB661B024448005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/symptoms.html; sourceTree = "<group>"; };
 		80C3BB691B024453005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/whoisrunning.html; sourceTree = "<group>"; };
 		80C3BB6C1B024459005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/whoisrunning_intro.html; sourceTree = "<group>"; };
-		80C3BB6E1B024482005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		A74615B11A98077D00323AD1 /* ConverterForPDScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterForPDScores.h; sourceTree = "<group>"; };
 		A74615B21A98077D00323AD1 /* ConverterForPDScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterForPDScores.m; sourceTree = "<group>"; };
 		A78116601A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_Blank_to_Activities@2x.m4v"; sourceTree = "<group>"; };
@@ -585,6 +631,7 @@
 		CFC2D2CE19A5417D00170E69 = {
 			isa = PBXGroup;
 			children = (
+				60CAA8B41B03C43D00DE3305 /* Localizable.strings */,
 				CFC2D2D919A5417D00170E69 /* Parkinson */,
 				CFC2D2E719A5417D00170E69 /* Images.xcassets */,
 				CFA2ABB419A7C1C1000DB961 /* Frameworks */,
@@ -617,8 +664,8 @@
 		CFC2D2DA19A5417D00170E69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60CAA8F01B03C89700DE3305 /* Info.plist */,
 				F5241CA819AEA5110098A4DF /* Parkinson.entitlements */,
-				80C3BB6F1B024482005EB005 /* Info.plist */,
 				CFC2D2DC19A5417D00170E69 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -831,6 +878,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
 			);
 			mainGroup = CFC2D2CE19A5417D00170E69;
 			productRefGroup = CFC2D2D819A5417D00170E69 /* Products */;
@@ -928,6 +976,7 @@
 				80C3BA9F1B023890005EB005 /* APHTasksAndSchedules.json in Resources */,
 				A78116791A96BC9400CEC822 /* 10_PotentialBenifits@3x.m4v in Resources */,
 				80C3BAF61B024318005EB005 /* disease_information_top.jpg in Resources */,
+				60CAA8B21B03C43D00DE3305 /* Localizable.strings in Resources */,
 				80C3BB111B024342005EB005 /* 11withdrawing.html in Resources */,
 				F5C1DC2019D22E6F006527EA /* Main.storyboard in Resources */,
 				A781167C1A96BC9400CEC822 /* 13_RiskToPrivacy@3x.m4v in Resources */,
@@ -977,6 +1026,7 @@
 				80C3BB621B024436005EB005 /* PrivacyPolicy.html in Resources */,
 				80C3BAFE1B024318005EB005 /* Learn_section_PD.css in Resources */,
 				F536B93E19F5747B005A2D1C /* sample.task in Resources */,
+				60CAA8F11B03C89700DE3305 /* Info.plist in Resources */,
 				80C3BA961B02385B005EB005 /* Learn.json in Resources */,
 				F5C11A2F19DCBE95003278FF /* APCParameters.json in Resources */,
 				80C3BB411B024391005EB005 /* AboutStudy_intro.html in Resources */,
@@ -1070,10 +1120,19 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		60CAA8B41B03C43D00DE3305 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CAA8B31B03C43D00DE3305 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		80C3BA7F1B0237B7005EB005 /* APHOnboarding.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA7E1B0237B7005EB005 /* Base */,
+				60CAA8B51B03C43E00DE3305 /* nl */,
 			);
 			name = APHOnboarding.storyboard;
 			sourceTree = "<group>";
@@ -1082,6 +1141,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA8B1B0237DE005EB005 /* Base */,
+				60CAA8B61B03C43E00DE3305 /* nl */,
 			);
 			name = APHDashboard.storyboard;
 			sourceTree = "<group>";
@@ -1090,6 +1150,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA8E1B02384A005EB005 /* Base */,
+				60CAA8C81B03C5AE00DE3305 /* nl */,
 			);
 			name = APHConsentSection.json;
 			sourceTree = "<group>";
@@ -1098,6 +1159,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA911B023850005EB005 /* Base */,
+				60CAA8C91B03C5B300DE3305 /* nl */,
 			);
 			name = LocationInfo.json;
 			sourceTree = "<group>";
@@ -1106,6 +1168,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA941B023855005EB005 /* Base */,
+				60CAA8CA1B03C5B600DE3305 /* nl */,
 			);
 			name = TermsAndConditions.json;
 			sourceTree = "<group>";
@@ -1114,6 +1177,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA971B02385B005EB005 /* Base */,
+				60CAA8CB1B03C5C700DE3305 /* nl */,
 			);
 			name = Learn.json;
 			sourceTree = "<group>";
@@ -1122,6 +1186,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA9A1B023863005EB005 /* Base */,
+				60CAA8CC1B03C5CC00DE3305 /* nl */,
 			);
 			name = WithdrawStudy.json;
 			sourceTree = "<group>";
@@ -1130,6 +1195,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA9D1B023886005EB005 /* Base */,
+				60CAA8CD1B03C5D900DE3305 /* nl */,
 			);
 			name = StudyOverview.json;
 			sourceTree = "<group>";
@@ -1138,6 +1204,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BAA01B023890005EB005 /* Base */,
+				60CAA8CE1B03C5DE00DE3305 /* nl */,
 			);
 			name = APHTasksAndSchedules.json;
 			sourceTree = "<group>";
@@ -1146,6 +1213,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BAA31B023898005EB005 /* Base */,
+				60CAA8CF1B03C5E300DE3305 /* nl */,
 			);
 			name = APHTasksAndSchedules_NoM7.json;
 			sourceTree = "<group>";
@@ -1178,6 +1246,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BAAF1B023972005EB005 /* Base */,
+				60CAA8ED1B03C69C00DE3305 /* nl */,
 			);
 			name = consent.pdf;
 			sourceTree = "<group>";
@@ -1186,6 +1255,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB0F1B02433E005EB005 /* Base */,
+				60CAA8BB1B03C59A00DE3305 /* nl */,
 			);
 			name = 10study_task.html;
 			sourceTree = "<group>";
@@ -1194,6 +1264,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB121B024342005EB005 /* Base */,
+				60CAA8C61B03C5A100DE3305 /* nl */,
 			);
 			name = 11withdrawing.html;
 			sourceTree = "<group>";
@@ -1202,6 +1273,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB151B024348005EB005 /* Base */,
+				60CAA8C71B03C5A700DE3305 /* nl */,
 			);
 			name = 12potentialbenefits1.html;
 			sourceTree = "<group>";
@@ -1210,6 +1282,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB181B02434F005EB005 /* Base */,
+				60CAA8D01B03C5EA00DE3305 /* nl */,
 			);
 			name = 13issues_survey.html;
 			sourceTree = "<group>";
@@ -1218,6 +1291,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB1B1B024353005EB005 /* Base */,
+				60CAA8D11B03C5EE00DE3305 /* nl */,
 			);
 			name = 14issues_mood.html;
 			sourceTree = "<group>";
@@ -1226,6 +1300,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB1E1B02435B005EB005 /* Base */,
+				60CAA8D21B03C5F100DE3305 /* nl */,
 			);
 			name = 15privacy_risk.html;
 			sourceTree = "<group>";
@@ -1234,6 +1309,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB211B024360005EB005 /* Base */,
+				60CAA8D31B03C5F600DE3305 /* nl */,
 			);
 			name = 15sharing_rsch.html;
 			sourceTree = "<group>";
@@ -1242,6 +1318,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB241B024364005EB005 /* Base */,
+				60CAA8D41B03C5FA00DE3305 /* nl */,
 			);
 			name = 1welcome.html;
 			sourceTree = "<group>";
@@ -1250,6 +1327,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB271B024368005EB005 /* Base */,
+				60CAA8D51B03C60100DE3305 /* nl */,
 			);
 			name = 2quiz_headsup.html;
 			sourceTree = "<group>";
@@ -1258,6 +1336,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB2A1B02436C005EB005 /* Base */,
+				60CAA8D61B03C60500DE3305 /* nl */,
 			);
 			name = 3activities.html;
 			sourceTree = "<group>";
@@ -1266,6 +1345,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB2D1B024371005EB005 /* Base */,
+				60CAA8D71B03C60A00DE3305 /* nl */,
 			);
 			name = 4sensordata.html;
 			sourceTree = "<group>";
@@ -1274,6 +1354,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB301B024376005EB005 /* Base */,
+				60CAA8D81B03C61000DE3305 /* nl */,
 			);
 			name = 5dataprocessing.html;
 			sourceTree = "<group>";
@@ -1282,6 +1363,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB331B02437A005EB005 /* Base */,
+				60CAA8D91B03C61500DE3305 /* nl */,
 			);
 			name = 6protectingdata.html;
 			sourceTree = "<group>";
@@ -1290,6 +1372,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB361B02437E005EB005 /* Base */,
+				60CAA8DA1B03C61900DE3305 /* nl */,
 			);
 			name = 7datause.html;
 			sourceTree = "<group>";
@@ -1298,6 +1381,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB391B024382005EB005 /* Base */,
+				60CAA8DB1B03C61E00DE3305 /* nl */,
 			);
 			name = 8time.html;
 			sourceTree = "<group>";
@@ -1306,6 +1390,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB3C1B024386005EB005 /* Base */,
+				60CAA8DC1B03C62100DE3305 /* nl */,
 			);
 			name = 9study_survey.html;
 			sourceTree = "<group>";
@@ -1314,6 +1399,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB3F1B02438B005EB005 /* Base */,
+				60CAA8DD1B03C62600DE3305 /* nl */,
 			);
 			name = AboutStudy.html;
 			sourceTree = "<group>";
@@ -1322,6 +1408,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB421B024391005EB005 /* Base */,
+				60CAA8DE1B03C62B00DE3305 /* nl */,
 			);
 			name = AboutStudy_intro.html;
 			sourceTree = "<group>";
@@ -1330,6 +1417,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB451B02439F005EB005 /* Base */,
+				60CAA8DF1B03C63400DE3305 /* nl */,
 			);
 			name = consent.pdf;
 			sourceTree = "<group>";
@@ -1338,6 +1426,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB481B0243B4005EB005 /* Base */,
+				60CAA8E01B03C63E00DE3305 /* nl */,
 			);
 			name = consentvideo_intro.html;
 			sourceTree = "<group>";
@@ -1346,6 +1435,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB4B1B0243C2005EB005 /* Base */,
+				60CAA8E11B03C64700DE3305 /* nl */,
 			);
 			name = EligibleToParticipate.html;
 			sourceTree = "<group>";
@@ -1354,6 +1444,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB4E1B0243CB005EB005 /* Base */,
+				60CAA8E21B03C64C00DE3305 /* nl */,
 			);
 			name = feedback_intro.html;
 			sourceTree = "<group>";
@@ -1362,6 +1453,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB511B0243D1005EB005 /* Base */,
+				60CAA8E31B03C65000DE3305 /* nl */,
 			);
 			name = howstudyworks.html;
 			sourceTree = "<group>";
@@ -1370,6 +1462,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB541B0243D5005EB005 /* Base */,
+				60CAA8E41B03C65500DE3305 /* nl */,
 			);
 			name = howstudyworks_intro.html;
 			sourceTree = "<group>";
@@ -1378,6 +1471,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB571B0243EA005EB005 /* Base */,
+				60CAA8E51B03C66500DE3305 /* nl */,
 			);
 			name = learnmore_overview.html;
 			sourceTree = "<group>";
@@ -1386,6 +1480,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB5A1B024400005EB005 /* Base */,
+				60CAA8E61B03C67100DE3305 /* nl */,
 			);
 			name = lifewithPD.html;
 			sourceTree = "<group>";
@@ -1394,6 +1489,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB5D1B024417005EB005 /* Base */,
+				60CAA8E71B03C67500DE3305 /* nl */,
 			);
 			name = online_resources.html;
 			sourceTree = "<group>";
@@ -1402,6 +1498,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB601B024423005EB005 /* Base */,
+				60CAA8E81B03C67B00DE3305 /* nl */,
 			);
 			name = PD_fullconsent.html;
 			sourceTree = "<group>";
@@ -1410,6 +1507,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB631B024436005EB005 /* Base */,
+				60CAA8E91B03C68300DE3305 /* nl */,
 			);
 			name = PrivacyPolicy.html;
 			sourceTree = "<group>";
@@ -1418,6 +1516,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB661B024448005EB005 /* Base */,
+				60CAA8EA1B03C68800DE3305 /* nl */,
 			);
 			name = symptoms.html;
 			sourceTree = "<group>";
@@ -1426,6 +1525,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB691B024453005EB005 /* Base */,
+				60CAA8EB1B03C69000DE3305 /* nl */,
 			);
 			name = whoisrunning.html;
 			sourceTree = "<group>";
@@ -1434,16 +1534,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BB6C1B024459005EB005 /* Base */,
+				60CAA8EC1B03C69500DE3305 /* nl */,
 			);
 			name = whoisrunning_intro.html;
-			sourceTree = "<group>";
-		};
-		80C3BB6F1B024482005EB005 /* Info.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80C3BB6E1B024482005EB005 /* Base */,
-			);
-			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

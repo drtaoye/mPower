@@ -1,0 +1,115 @@
+/* No comment provided by engineer. */
+"Access to microphone is required for your Voice Recording Activity." = "U hebt een microfoon nodig voor de stemactiviteit.";
+
+/* Activity Completion */
+"Activity Completion" = "Voltooiing van activiteit";
+
+/* No comment provided by engineer. */
+"Allowing notifications enables the app to show you reminders." = "Als u meldingen toestaat, kunnen er herinneringen worden weergegeven door de app.";
+
+/* Dashboard */
+"Dashboard" = "Dashboard";
+
+/* No comment provided by engineer. */
+"Gait" = "Lopen";
+
+/* No comment provided by engineer. */
+"Medication Tracker Setup" = "Medicatietracker configureren";
+
+/* No comment provided by engineer. */
+"Memory" = "Geheugen";
+
+/* No comment provided by engineer. */
+"Memory Activity" = "Geheugenactiviteit";
+
+/* No comment provided by engineer. */
+"My Thoughts" = "Mijn gedachten";
+
+/* No comment provided by engineer. */
+"On the next screen, you will be prompted to grant mPower access to read and write some of your general and health information, such as height, weight and steps taken so you don't have to enter it again." = "In het volgende scherm wordt u gevraagd of enkele algemene gegevens en gezondheidsgegevens van u mogen worden opgevraagd en opgeslagen, zoals uw lengte, uw gewicht en het aantal stappen, zodat u deze gegevens later niet opnieuw hoeft in te voeren.";
+
+/* No comment provided by engineer. */
+"PD Survey" = "Parkinson-vragenlijst";
+
+/* Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day. */
+"Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day." = "We willen u vragen om de activiteiten drie keer per dag uit te voeren: op het moment dat u zich het slechtst voelt, maar voordat u uw Parkinson-medicijnen inneemt, op het moment dat de medicijnen gaan werken en tot slot op een derde moment in de loop van de dag.";
+
+/* No comment provided by engineer. */
+"Please take a look at Parkinson mPower, a research study app about Parkinson Disease.  Download it for iPhone at http://apple.co/1FO7Bsi" = "Kijk even rond in Parkinson mPower, een onderzoeks-app met betrekking tot de ziekte van Parkinson.  Download de app voor iPhone op http://apple.co/1FO7Bsi";
+
+/* No comment provided by engineer. */
+"Recent Activity" = "Recente activiteit";
+
+/* (No Commment) */
+"Rest your phone on a flat surface. Then use two fingers on the same hand to alternately tap the buttons that appear. Keep tapping for 20 seconds and time your taps to be as consistent as possible.  Tap Next to begin the test." = "Leg uw telefoon op een vlakke ondergrond. Gebruik vervolgens twee vingers van dezelfde hand om afwisselend op de knoppen te tikken die verschijnen. Doe dit gedurende twintig seconden en probeer zo regelmatig mogelijk te tikken.
+
+Tik op 'Volgende' om de test te starten.";
+
+/* (No Commment) */
+"Some of the flowers will light up one at a time. Tap those flowers in the same order they lit up.  To begin, tap Next, then watch closely." = "Sommige van de bloemen lichten één voor één op. Tik op die bloemen om hetzelfde patroon te herhalen.
+
+Tik op 'Volgende' om te beginnen en kijk goed naar het scherm van uw telefoon.";
+
+/* No comment provided by engineer. */
+"Speed of finger tapping can reflect severity of motor symptoms in Parkinson disease. This activity measures your tapping speed. Your medical provider may measure this differently." = "De snelheid waarmee iemand met zijn of haar vingers tikt, kan een indicatie zijn van de ernst van motorische symptomen bij iemand met Parkinson. Met deze activiteit wordt uw tiksnelheid gemeten. Uw arts of specialist gebruikt mogelijk een andere methode om deze waarde te meten.";
+
+/* Steps */
+"Steps" = "Stappen";
+
+/* No comment provided by engineer. */
+"Take a deep breath and say “Aaaaah” into the microphone for as long as you can. Keep a steady volume so the audio bars remain blue." = "Haal diep adem en zeg zo lang als u kunt \"Aaaaah\" in de microfoon. Doe dit met een gelijkblijvend volume, zodat de audiobalkjes blauw blijven.";
+
+/* No comment provided by engineer. */
+"Tap Next to begin the test." = "Tik op 'Volgende' om de test te starten.";
+
+/* No comment provided by engineer. */
+"Tapping" = "Tikken";
+
+/* No comment provided by engineer. */
+"Tapping Activity" = "Tikactiviteit";
+
+/* No comment provided by engineer. */
+"Thank You!" = "Dank u.";
+
+/* No comment provided by engineer. */
+"The results of this activity can be viewed on the dashboard" = "De resultaten van deze activiteit kunt u zien op het dashboard";
+
+/* Dashboard tooltip item info text for Steps in Parkinson */
+"This graph shows how many steps you took each day, according to your phone's motion sensors. Remember that for this number to be accurate, you should have the phone on you as frequently as possible." = "In deze grafiek ziet u hoeveel stappen u elke dag volgens de bewegingssensoren van uw telefoon hebt gelopen. Deze waarde is alleen nauwkeurig als u de telefoon zo veel mogelijk bij u draagt.";
+
+/* Dashboard tooltip item info text for Activity Completion in Parkinson */
+"This graph shows the percent of Today's activities that you completed. You can complete more of your tasks in the Activities tab." = "In deze grafiek ziet u het percentage van de activiteiten die u vandaag hebt voltooid. U kunt meer van uw taken voltooien op het tabblad 'Activiteiten'.";
+
+/* Dashboard tooltip item info text for Gait in Parkinson */
+"This plot combines several accelerometer-based measures for the Walking Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Walking measure, which may reflect variations and trends in your symptoms." = "In deze grafiek worden verschillende metingen van de acceleratiemeter voor de loopactiviteit gecombineerd. De lengte en positie van de verticale staven geven de metingen voor een bepaalde dag aan. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw loopactiviteit, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* Dashboard tooltip item info text for Voice in Parkinson */
+"This plot combines several microphone-based measures as a single score for the Voice Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Voice measure, which may reflect variations and trends in your symptoms." = "In deze grafiek worden verschillende microfoonmetingen gecombineerd tot één score voor de stemactiviteit. De lengte en positie van de verticale staven geven de metingen voor een bepaalde dag aan. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw stemactiviteit, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* Dashboard tooltip item info text for Memory in Parkinson */
+"This plot shows the score you received each day for the Memory Game. The length and position of each vertical bar represents the range of scores for a given day. Any differences in length or position over time reflect variations and trends in your score, which may reflect variations and trends in your symptoms." = "In dit diagram ziet u de score die u elke dag bij het geheugenspel hebt behaald. De lengte en positie van de verticale staven geven de scores voor een bepaalde dag aan. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw score, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* Dashboard tooltip item info text for Tapping in Parkinson */
+"This plot shows your finger tapping speed each day as measured by the Tapping Interval Activity. The length and position of each vertical bar represents the range in the number of taps you made in 20 seconds for a given day. Any differences in length or position over time reflect variations and trends in your tapping speed, which may reflect variations and trends in your symptoms." = "In dit diagram ziet u voor elke dag uw vingertiksnelheid, zoals die is gemeten tijdens de activiteit 'Tikinterval'. De lengte en positie van de verticale staven geven het aantal tikken aan dat u op een bepaalde dag in twintig seconden hebt behaald. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw tiksnelheid, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* No comment provided by engineer. */
+"Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease." = "Met behulp van de bewegings-coprocessor van uw telefoon wordt informatie over uw activiteiten verzameld, zodat beter kan worden onderzocht hoe het activiteitenniveau van invloed is op de ziekte.";
+
+/* No comment provided by engineer. */
+"Using your GPS enables the app to accurately determine distances travelled. Your actual location will never be shared." = "Met de GPS-voorziening van uw telefoon kan nauwkeurig worden bepaald welke afstanden u aflegt. Uw feitelijke locatie wordt nooit aan anderen doorgegeven.";
+
+/* No comment provided by engineer. */
+"Voice" = "Stem";
+
+/* No comment provided by engineer. */
+"Voice Activity" = "Stemactiviteit";
+
+/* No comment provided by engineer. */
+"Walking Activity" = "Loopactiviteit";
+
+/* No comment provided by engineer. */
+"Weekly Survey" = "Wekelijkse vragenlijst";
+
+/* You have completed the activity. */
+"You have completed the activity." = "U hebt de activiteit voltooid.";
+

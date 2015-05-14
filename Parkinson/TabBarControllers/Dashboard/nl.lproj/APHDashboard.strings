@@ -1,0 +1,33 @@
+/* Class = "UILabel"; text = "Activity Completion"; ObjectID = "7MP-UI-cD8"; */
+"7MP-UI-cD8.text" = "Voltooiing van activiteit";
+
+/* Class = "UILabel"; text = "Tap and drag to rearrange your graphs"; ObjectID = "Faz-yo-q5x"; */
+"Faz-yo-q5x.text" = "Tik en sleep om de grafieken op een andere plek te zetten";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IG5-hN-Jl5"; */
+"IG5-hN-Jl5.normalTitle" = "Knop";
+
+/* Class = "UILabel"; text = "Today, February 17"; ObjectID = "Qsg-qd-APP"; */
+"Qsg-qd-APP.text" = "Vandaag, 17 februari";
+
+/* Class = "UINavigationController"; title = "Dashboard"; ObjectID = "Y3q-0i-ptk"; */
+"Y3q-0i-ptk.title" = "Dashboard";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eEt-gP-2TY"; */
+"eEt-gP-2TY.text" = "Etiket";
+
+/* Class = "UILabel"; text = "Average Score: 222"; ObjectID = "eb9-Pe-RMI"; */
+"eb9-Pe-RMI.text" = "Gemiddelde score: 222";
+
+/* Class = "UITabBarItem"; title = "Dashboard"; ObjectID = "fVl-L3-Mlw"; */
+"fVl-L3-Mlw.title" = "Dashboard";
+
+/* Class = "UINavigationItem"; title = "Dashboard"; ObjectID = "oQf-cg-HNo"; */
+"oQf-cg-HNo.title" = "Dashboard";
+
+/* Class = "UINavigationItem"; title = "Dashboard"; ObjectID = "vev-uc-4M3"; */
+"vev-uc-4M3.title" = "Dashboard";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "w4R-X7-ZrR"; */
+"w4R-X7-ZrR.text" = "Etiket";
+
