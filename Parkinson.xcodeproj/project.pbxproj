@@ -251,6 +251,7 @@
 		5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardViewController.m; sourceTree = "<group>"; };
 		5B29CE5219D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHInclusionCriteriaViewController.h; sourceTree = "<group>"; };
 		5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHInclusionCriteriaViewController.m; sourceTree = "<group>"; };
+		6086CCAE1B068752009DF7F5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/TermsAndConditions.json; sourceTree = "<group>"; };
 		60CAA8B31B03C43D00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		60CAA8B51B03C43E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHOnboarding.strings; sourceTree = "<group>"; };
 		60CAA8B61B03C43E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHDashboard.strings; sourceTree = "<group>"; };
@@ -258,8 +259,7 @@
 		60CAA8C61B03C5A100DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/11withdrawing.html; sourceTree = "<group>"; };
 		60CAA8C71B03C5A700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = nl; path = nl.lproj/12potentialbenefits1.html; sourceTree = "<group>"; };
 		60CAA8C81B03C5AE00DE3305 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nl; path = nl.lproj/APHConsentSection.json; sourceTree = "<group>"; };
-		60CAA8C91B03C5B300DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/LocationInfo.json; sourceTree = "<group>"; };
-		60CAA8CA1B03C5B600DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/TermsAndConditions.json; sourceTree = "<group>"; };
+		60CAA8C91B03C5B300DE3305 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nl; path = nl.lproj/LocationInfo.json; sourceTree = "<group>"; };
 		60CAA8CB1B03C5C700DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/Learn.json; sourceTree = "<group>"; };
 		60CAA8CC1B03C5CC00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/WithdrawStudy.json; sourceTree = "<group>"; };
 		60CAA8CD1B03C5D900DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/StudyOverview.json; sourceTree = "<group>"; };
@@ -854,6 +854,7 @@
 				TargetAttributes = {
 					CFC2D2D619A5417D00170E69 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4B822CZK9N;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1168,7 +1169,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80C3BA941B023855005EB005 /* Base */,
-				60CAA8CA1B03C5B600DE3305 /* nl */,
+				6086CCAE1B068752009DF7F5 /* nl */,
 			);
 			name = TermsAndConditions.json;
 			sourceTree = "<group>";

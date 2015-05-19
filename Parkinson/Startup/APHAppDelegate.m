@@ -47,8 +47,8 @@ static NSString *const kMyThoughtsSurveyIdentifier                  = @"8-MyThou
 /*********************************************************************************/
 #pragma mark - Initializations Options
 /*********************************************************************************/
-static NSString *const kStudyIdentifier             = @"studyname";
-static NSString *const kAppPrefix                   = @"studyname";
+static NSString *const kStudyIdentifier             = @"parkinson-nl";
+static NSString *const kAppPrefix                   = @"parkinson-nl";
 static NSString* const  kConsentPropertiesFileName  = @"APHConsentSection";
 
 static NSString *const kVideoShownKey = @"VideoShown";
@@ -94,7 +94,7 @@ static NSInteger const kMonthOfDayObject                = 2;
     [dictionary addEntriesFromDictionary:@{
                                            kStudyIdentifierKey                  : kStudyIdentifier,
                                            kAppPrefixKey                        : kAppPrefix,
-                                           kBridgeEnvironmentKey                : @(SBBEnvironmentProd),
+                                           kBridgeEnvironmentKey                : @(SBBEnvironmentStaging),
                                            kHKReadPermissionsKey                : @[
                                                    HKQuantityTypeIdentifierBodyMass,
                                                    HKQuantityTypeIdentifierHeight,
@@ -172,7 +172,7 @@ static NSInteger const kMonthOfDayObject                = 2;
     [[UIView appearance] setTintColor:[UIColor appPrimaryColor]];
     
     //  Enable server bypass
-    self.dataSubstrate.parameters.bypassServer = YES;
+//    self.dataSubstrate.parameters.bypassServer = YES;
 }
 
 - (id <APCProfileViewControllerDelegate>) profileExtenderDelegate {

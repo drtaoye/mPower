@@ -133,12 +133,12 @@
      {
          "sectionType" : "withdrawing",
          "sectionTitle" : "Terugtrekken",
-         "sectionSummary" : "Uw deelname is geheel vrijwillig. U kunt op elk moment uw toestemming intrekken en uw deelname aan het onderzoek beÎindigen.",
+         "sectionSummary" : "Uw deelname is geheel vrijwillig. U kunt op elk moment uw toestemming intrekken en uw deelname aan het onderzoek beëindigen.",
          "sectionHtmlContent" : "11withdrawing"
      },
      {
          "sectionType" : "custom",
-         "sectionTitle": "PotentiÎle voordelen",
+         "sectionTitle": "Potentiële voordelen",
          "sectionSummary": "U kunt uw gegevens visualiseren en zo mogelijk een beter beeld krijgen van het verloop van uw gezondheid.",
          "sectionHtmlContent" : "12potentialbenefits1",
          "sectionImage": "10_PotentialBenifits",
