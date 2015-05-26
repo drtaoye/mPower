@@ -1,0 +1,55 @@
+{
+    "items": [
+        {
+            "section_title": "",
+            "row_items": [
+                          
+                          {
+                          "title":"关于本研究",
+                          "details":"AboutStudy",
+                          "icon_image":"paperplus_icon",
+                          "tint_color" : "blue"
+                          },
+                          
+                          {
+                          "title":"如何进行本研究",
+                          "details":"howstudyworks",
+                          "icon_image":"rulerpencil_icon",
+                          "tint_color" : "purple"
+                          },
+                          
+                          {
+                          "title":"谁可以参与本研究",
+                          "details":"EligibleToParticipate",
+                          "icon_image":"clipboard_icon",
+                          "tint_color" : "green"
+                          },
+                          {
+                          "title":"谁在开展本研究",
+                          "details":"whoisrunning",
+                          "icon_image":"stethescope_icon",
+                          "tint_color" : "yellow"
+                          },
+                          
+                        {
+                            "title": "帕金森病患者的生活",
+                            "details": "lifewithPD",
+                            "icon_image": "disease_icon",
+                            "tint_color": "appColor"
+                        },
+                        {
+                            "title": "症状",
+                            "details": "symptoms",
+                            "icon_image": "diagnostics_icon",
+                            "tint_color": "green"
+                        },
+                        {
+                            "title": "在线资源",
+                            "details": "online_resources",
+                            "icon_image": "globe_icon",
+                            "tint_color": "gray"
+                        }
+            ]
+        }
+    ]
+}

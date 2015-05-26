@@ -14,6 +14,7 @@
 		5B1D9D461A1BCC6B000F4AD6 /* APHDashboardEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D9D421A1BCC6B000F4AD6 /* APHDashboardEditViewController.m */; };
 		5B1D9D471A1BCC6B000F4AD6 /* APHDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D9D441A1BCC6B000F4AD6 /* APHDashboardViewController.m */; };
 		5B29CE5419D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */; };
+		60B635121B0FB8C800C4DA63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B635141B0FB8C800C4DA63 /* InfoPlist.strings */; };
 		60CAA8B21B03C43D00DE3305 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60CAA8B41B03C43D00DE3305 /* Localizable.strings */; };
 		60CAA8F11B03C89700DE3305 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CAA8F01B03C89700DE3305 /* Info.plist */; };
 		745DB4391ADB0B380007C484 /* libPDScores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745DB4361ADB09F70007C484 /* libPDScores.a */; };
@@ -252,6 +253,51 @@
 		5B29CE5219D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHInclusionCriteriaViewController.h; sourceTree = "<group>"; };
 		5B29CE5319D4C8FD00E2FD62 /* APHInclusionCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHInclusionCriteriaViewController.m; sourceTree = "<group>"; };
 		6086CCAE1B068752009DF7F5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nl; path = nl.lproj/TermsAndConditions.json; sourceTree = "<group>"; };
+		60B635031B0FB8C800C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		60B6350E1B0FB8C800C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APHDashboard.strings"; sourceTree = "<group>"; };
+		60B6350F1B0FB8C800C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APHOnboarding.strings"; sourceTree = "<group>"; };
+		60B635131B0FB8C800C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		60B635151B0FBA0200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "zh-Hans"; path = "zh-Hans.lproj/consent.pdf"; sourceTree = "<group>"; };
+		60B635161B0FBA1100C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "zh-Hans"; path = "zh-Hans.lproj/consent.pdf"; sourceTree = "<group>"; };
+		60B635171B0FBA3900C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/TermsAndConditions.json"; sourceTree = "<group>"; };
+		60B635181B0FC16F00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/APHConsentSection.json"; sourceTree = "<group>"; };
+		60B635191B0FC17C00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/LocationInfo.json"; sourceTree = "<group>"; };
+		60B6351A1B0FC18700C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/Learn.json"; sourceTree = "<group>"; };
+		60B6351B1B0FC19300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/WithdrawStudy.json"; sourceTree = "<group>"; };
+		60B6351C1B0FC19900C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/StudyOverview.json"; sourceTree = "<group>"; };
+		60B6351D1B0FC19E00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/APHTasksAndSchedules.json"; sourceTree = "<group>"; };
+		60B6351E1B0FC1A400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/APHTasksAndSchedules_NoM7.json"; sourceTree = "<group>"; };
+		60B6351F1B0FC46600C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/10study_task.html"; sourceTree = "<group>"; };
+		60B635201B0FC46F00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/11withdrawing.html"; sourceTree = "<group>"; };
+		60B635211B0FC47400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/12potentialbenefits1.html"; sourceTree = "<group>"; };
+		60B635221B0FC47900C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/13issues_survey.html"; sourceTree = "<group>"; };
+		60B635231B0FC47F00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/14issues_mood.html"; sourceTree = "<group>"; };
+		60B635241B0FC48400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/15privacy_risk.html"; sourceTree = "<group>"; };
+		60B635251B0FC48900C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/15sharing_rsch.html"; sourceTree = "<group>"; };
+		60B635261B0FC48D00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/1welcome.html"; sourceTree = "<group>"; };
+		60B635271B0FC49200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/2quiz_headsup.html"; sourceTree = "<group>"; };
+		60B635281B0FC49700C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/3activities.html"; sourceTree = "<group>"; };
+		60B635291B0FC49D00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/4sensordata.html"; sourceTree = "<group>"; };
+		60B6352A1B0FC4A600C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/5dataprocessing.html"; sourceTree = "<group>"; };
+		60B6352B1B0FC4AB00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/6protectingdata.html"; sourceTree = "<group>"; };
+		60B6352C1B0FC4AF00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/7datause.html"; sourceTree = "<group>"; };
+		60B6352D1B0FC4B400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/8time.html"; sourceTree = "<group>"; };
+		60B6352E1B0FC4B800C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/9study_survey.html"; sourceTree = "<group>"; };
+		60B6352F1B0FC4BD00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/AboutStudy.html"; sourceTree = "<group>"; };
+		60B635301B0FC4C300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/AboutStudy_intro.html"; sourceTree = "<group>"; };
+		60B635311B0FC4CB00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/consentvideo_intro.html"; sourceTree = "<group>"; };
+		60B635321B0FC4CF00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/EligibleToParticipate.html"; sourceTree = "<group>"; };
+		60B635331B0FC4D300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/feedback_intro.html"; sourceTree = "<group>"; };
+		60B635341B0FC4D900C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/howstudyworks.html"; sourceTree = "<group>"; };
+		60B635351B0FC4DD00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/howstudyworks_intro.html"; sourceTree = "<group>"; };
+		60B635361B0FC4E300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/learnmore_overview.html"; sourceTree = "<group>"; };
+		60B635371B0FC4E900C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/lifewithPD.html"; sourceTree = "<group>"; };
+		60B635381B0FC4F300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/online_resources.html"; sourceTree = "<group>"; };
+		60B635391B0FC4FA00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/PD_fullconsent.html"; sourceTree = "<group>"; };
+		60B6353A1B0FC4FE00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/PrivacyPolicy.html"; sourceTree = "<group>"; };
+		60B6353B1B0FC50200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/symptoms.html"; sourceTree = "<group>"; };
+		60B6353C1B0FC50600C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/whoisrunning.html"; sourceTree = "<group>"; };
+		60B6353D1B0FC50A00C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/whoisrunning_intro.html"; sourceTree = "<group>"; };
 		60CAA8B31B03C43D00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		60CAA8B51B03C43E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHOnboarding.strings; sourceTree = "<group>"; };
 		60CAA8B61B03C43E00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHDashboard.strings; sourceTree = "<group>"; };
@@ -664,6 +710,7 @@
 		CFC2D2DA19A5417D00170E69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60B635141B0FB8C800C4DA63 /* InfoPlist.strings */,
 				60CAA8F01B03C89700DE3305 /* Info.plist */,
 				F5241CA819AEA5110098A4DF /* Parkinson.entitlements */,
 				CFC2D2DC19A5417D00170E69 /* main.m */,
@@ -880,6 +927,7 @@
 				en,
 				Base,
 				nl,
+				"zh-Hans",
 			);
 			mainGroup = CFC2D2CE19A5417D00170E69;
 			productRefGroup = CFC2D2D819A5417D00170E69 /* Products */;
@@ -1034,6 +1082,7 @@
 				F5DCAD3E19D088330096DEC0 /* LaunchScreen.xib in Resources */,
 				80C3BB061B024318005EB005 /* PDvideo_cover.PNG in Resources */,
 				80C3BA8A1B0237DE005EB005 /* APHDashboard.storyboard in Resources */,
+				60B635121B0FB8C800C4DA63 /* InfoPlist.strings in Resources */,
 				A78116761A96BC9400CEC822 /* 00_Blank_to_Activities@3x.m4v in Resources */,
 				80C3BA991B023863005EB005 /* WithdrawStudy.json in Resources */,
 				A781166F1A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v in Resources */,
@@ -1121,10 +1170,19 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		60B635141B0FB8C800C4DA63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B635131B0FB8C800C4DA63 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		60CAA8B41B03C43D00DE3305 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				60CAA8B31B03C43D00DE3305 /* nl */,
+				60B635031B0FB8C800C4DA63 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1134,6 +1192,7 @@
 			children = (
 				80C3BA7E1B0237B7005EB005 /* Base */,
 				60CAA8B51B03C43E00DE3305 /* nl */,
+				60B6350F1B0FB8C800C4DA63 /* zh-Hans */,
 			);
 			name = APHOnboarding.storyboard;
 			sourceTree = "<group>";
@@ -1143,6 +1202,7 @@
 			children = (
 				80C3BA8B1B0237DE005EB005 /* Base */,
 				60CAA8B61B03C43E00DE3305 /* nl */,
+				60B6350E1B0FB8C800C4DA63 /* zh-Hans */,
 			);
 			name = APHDashboard.storyboard;
 			sourceTree = "<group>";
@@ -1152,6 +1212,7 @@
 			children = (
 				80C3BA8E1B02384A005EB005 /* Base */,
 				60CAA8C81B03C5AE00DE3305 /* nl */,
+				60B635181B0FC16F00C4DA63 /* zh-Hans */,
 			);
 			name = APHConsentSection.json;
 			sourceTree = "<group>";
@@ -1161,6 +1222,7 @@
 			children = (
 				80C3BA911B023850005EB005 /* Base */,
 				60CAA8C91B03C5B300DE3305 /* nl */,
+				60B635191B0FC17C00C4DA63 /* zh-Hans */,
 			);
 			name = LocationInfo.json;
 			sourceTree = "<group>";
@@ -1170,6 +1232,7 @@
 			children = (
 				80C3BA941B023855005EB005 /* Base */,
 				6086CCAE1B068752009DF7F5 /* nl */,
+				60B635171B0FBA3900C4DA63 /* zh-Hans */,
 			);
 			name = TermsAndConditions.json;
 			sourceTree = "<group>";
@@ -1179,6 +1242,7 @@
 			children = (
 				80C3BA971B02385B005EB005 /* Base */,
 				60CAA8CB1B03C5C700DE3305 /* nl */,
+				60B6351A1B0FC18700C4DA63 /* zh-Hans */,
 			);
 			name = Learn.json;
 			sourceTree = "<group>";
@@ -1188,6 +1252,7 @@
 			children = (
 				80C3BA9A1B023863005EB005 /* Base */,
 				60CAA8CC1B03C5CC00DE3305 /* nl */,
+				60B6351B1B0FC19300C4DA63 /* zh-Hans */,
 			);
 			name = WithdrawStudy.json;
 			sourceTree = "<group>";
@@ -1197,6 +1262,7 @@
 			children = (
 				80C3BA9D1B023886005EB005 /* Base */,
 				60CAA8CD1B03C5D900DE3305 /* nl */,
+				60B6351C1B0FC19900C4DA63 /* zh-Hans */,
 			);
 			name = StudyOverview.json;
 			sourceTree = "<group>";
@@ -1206,6 +1272,7 @@
 			children = (
 				80C3BAA01B023890005EB005 /* Base */,
 				60CAA8CE1B03C5DE00DE3305 /* nl */,
+				60B6351D1B0FC19E00C4DA63 /* zh-Hans */,
 			);
 			name = APHTasksAndSchedules.json;
 			sourceTree = "<group>";
@@ -1215,6 +1282,7 @@
 			children = (
 				80C3BAA31B023898005EB005 /* Base */,
 				60CAA8CF1B03C5E300DE3305 /* nl */,
+				60B6351E1B0FC1A400C4DA63 /* zh-Hans */,
 			);
 			name = APHTasksAndSchedules_NoM7.json;
 			sourceTree = "<group>";
@@ -1248,6 +1316,7 @@
 			children = (
 				80C3BAAF1B023972005EB005 /* Base */,
 				60CAA8ED1B03C69C00DE3305 /* nl */,
+				60B635151B0FBA0200C4DA63 /* zh-Hans */,
 			);
 			name = consent.pdf;
 			sourceTree = "<group>";
@@ -1257,6 +1326,7 @@
 			children = (
 				80C3BB0F1B02433E005EB005 /* Base */,
 				60CAA8BB1B03C59A00DE3305 /* nl */,
+				60B6351F1B0FC46600C4DA63 /* zh-Hans */,
 			);
 			name = 10study_task.html;
 			sourceTree = "<group>";
@@ -1266,6 +1336,7 @@
 			children = (
 				80C3BB121B024342005EB005 /* Base */,
 				60CAA8C61B03C5A100DE3305 /* nl */,
+				60B635201B0FC46F00C4DA63 /* zh-Hans */,
 			);
 			name = 11withdrawing.html;
 			sourceTree = "<group>";
@@ -1275,6 +1346,7 @@
 			children = (
 				80C3BB151B024348005EB005 /* Base */,
 				60CAA8C71B03C5A700DE3305 /* nl */,
+				60B635211B0FC47400C4DA63 /* zh-Hans */,
 			);
 			name = 12potentialbenefits1.html;
 			sourceTree = "<group>";
@@ -1284,6 +1356,7 @@
 			children = (
 				80C3BB181B02434F005EB005 /* Base */,
 				60CAA8D01B03C5EA00DE3305 /* nl */,
+				60B635221B0FC47900C4DA63 /* zh-Hans */,
 			);
 			name = 13issues_survey.html;
 			sourceTree = "<group>";
@@ -1293,6 +1366,7 @@
 			children = (
 				80C3BB1B1B024353005EB005 /* Base */,
 				60CAA8D11B03C5EE00DE3305 /* nl */,
+				60B635231B0FC47F00C4DA63 /* zh-Hans */,
 			);
 			name = 14issues_mood.html;
 			sourceTree = "<group>";
@@ -1302,6 +1376,7 @@
 			children = (
 				80C3BB1E1B02435B005EB005 /* Base */,
 				60CAA8D21B03C5F100DE3305 /* nl */,
+				60B635241B0FC48400C4DA63 /* zh-Hans */,
 			);
 			name = 15privacy_risk.html;
 			sourceTree = "<group>";
@@ -1311,6 +1386,7 @@
 			children = (
 				80C3BB211B024360005EB005 /* Base */,
 				60CAA8D31B03C5F600DE3305 /* nl */,
+				60B635251B0FC48900C4DA63 /* zh-Hans */,
 			);
 			name = 15sharing_rsch.html;
 			sourceTree = "<group>";
@@ -1320,6 +1396,7 @@
 			children = (
 				80C3BB241B024364005EB005 /* Base */,
 				60CAA8D41B03C5FA00DE3305 /* nl */,
+				60B635261B0FC48D00C4DA63 /* zh-Hans */,
 			);
 			name = 1welcome.html;
 			sourceTree = "<group>";
@@ -1329,6 +1406,7 @@
 			children = (
 				80C3BB271B024368005EB005 /* Base */,
 				60CAA8D51B03C60100DE3305 /* nl */,
+				60B635271B0FC49200C4DA63 /* zh-Hans */,
 			);
 			name = 2quiz_headsup.html;
 			sourceTree = "<group>";
@@ -1338,6 +1416,7 @@
 			children = (
 				80C3BB2A1B02436C005EB005 /* Base */,
 				60CAA8D61B03C60500DE3305 /* nl */,
+				60B635281B0FC49700C4DA63 /* zh-Hans */,
 			);
 			name = 3activities.html;
 			sourceTree = "<group>";
@@ -1347,6 +1426,7 @@
 			children = (
 				80C3BB2D1B024371005EB005 /* Base */,
 				60CAA8D71B03C60A00DE3305 /* nl */,
+				60B635291B0FC49D00C4DA63 /* zh-Hans */,
 			);
 			name = 4sensordata.html;
 			sourceTree = "<group>";
@@ -1356,6 +1436,7 @@
 			children = (
 				80C3BB301B024376005EB005 /* Base */,
 				60CAA8D81B03C61000DE3305 /* nl */,
+				60B6352A1B0FC4A600C4DA63 /* zh-Hans */,
 			);
 			name = 5dataprocessing.html;
 			sourceTree = "<group>";
@@ -1365,6 +1446,7 @@
 			children = (
 				80C3BB331B02437A005EB005 /* Base */,
 				60CAA8D91B03C61500DE3305 /* nl */,
+				60B6352B1B0FC4AB00C4DA63 /* zh-Hans */,
 			);
 			name = 6protectingdata.html;
 			sourceTree = "<group>";
@@ -1374,6 +1456,7 @@
 			children = (
 				80C3BB361B02437E005EB005 /* Base */,
 				60CAA8DA1B03C61900DE3305 /* nl */,
+				60B6352C1B0FC4AF00C4DA63 /* zh-Hans */,
 			);
 			name = 7datause.html;
 			sourceTree = "<group>";
@@ -1383,6 +1466,7 @@
 			children = (
 				80C3BB391B024382005EB005 /* Base */,
 				60CAA8DB1B03C61E00DE3305 /* nl */,
+				60B6352D1B0FC4B400C4DA63 /* zh-Hans */,
 			);
 			name = 8time.html;
 			sourceTree = "<group>";
@@ -1392,6 +1476,7 @@
 			children = (
 				80C3BB3C1B024386005EB005 /* Base */,
 				60CAA8DC1B03C62100DE3305 /* nl */,
+				60B6352E1B0FC4B800C4DA63 /* zh-Hans */,
 			);
 			name = 9study_survey.html;
 			sourceTree = "<group>";
@@ -1401,6 +1486,7 @@
 			children = (
 				80C3BB3F1B02438B005EB005 /* Base */,
 				60CAA8DD1B03C62600DE3305 /* nl */,
+				60B6352F1B0FC4BD00C4DA63 /* zh-Hans */,
 			);
 			name = AboutStudy.html;
 			sourceTree = "<group>";
@@ -1410,6 +1496,7 @@
 			children = (
 				80C3BB421B024391005EB005 /* Base */,
 				60CAA8DE1B03C62B00DE3305 /* nl */,
+				60B635301B0FC4C300C4DA63 /* zh-Hans */,
 			);
 			name = AboutStudy_intro.html;
 			sourceTree = "<group>";
@@ -1419,6 +1506,7 @@
 			children = (
 				80C3BB451B02439F005EB005 /* Base */,
 				60CAA8DF1B03C63400DE3305 /* nl */,
+				60B635161B0FBA1100C4DA63 /* zh-Hans */,
 			);
 			name = consent.pdf;
 			sourceTree = "<group>";
@@ -1428,6 +1516,7 @@
 			children = (
 				80C3BB481B0243B4005EB005 /* Base */,
 				60CAA8E01B03C63E00DE3305 /* nl */,
+				60B635311B0FC4CB00C4DA63 /* zh-Hans */,
 			);
 			name = consentvideo_intro.html;
 			sourceTree = "<group>";
@@ -1437,6 +1526,7 @@
 			children = (
 				80C3BB4B1B0243C2005EB005 /* Base */,
 				60CAA8E11B03C64700DE3305 /* nl */,
+				60B635321B0FC4CF00C4DA63 /* zh-Hans */,
 			);
 			name = EligibleToParticipate.html;
 			sourceTree = "<group>";
@@ -1446,6 +1536,7 @@
 			children = (
 				80C3BB4E1B0243CB005EB005 /* Base */,
 				60CAA8E21B03C64C00DE3305 /* nl */,
+				60B635331B0FC4D300C4DA63 /* zh-Hans */,
 			);
 			name = feedback_intro.html;
 			sourceTree = "<group>";
@@ -1455,6 +1546,7 @@
 			children = (
 				80C3BB511B0243D1005EB005 /* Base */,
 				60CAA8E31B03C65000DE3305 /* nl */,
+				60B635341B0FC4D900C4DA63 /* zh-Hans */,
 			);
 			name = howstudyworks.html;
 			sourceTree = "<group>";
@@ -1464,6 +1556,7 @@
 			children = (
 				80C3BB541B0243D5005EB005 /* Base */,
 				60CAA8E41B03C65500DE3305 /* nl */,
+				60B635351B0FC4DD00C4DA63 /* zh-Hans */,
 			);
 			name = howstudyworks_intro.html;
 			sourceTree = "<group>";
@@ -1473,6 +1566,7 @@
 			children = (
 				80C3BB571B0243EA005EB005 /* Base */,
 				60CAA8E51B03C66500DE3305 /* nl */,
+				60B635361B0FC4E300C4DA63 /* zh-Hans */,
 			);
 			name = learnmore_overview.html;
 			sourceTree = "<group>";
@@ -1482,6 +1576,7 @@
 			children = (
 				80C3BB5A1B024400005EB005 /* Base */,
 				60CAA8E61B03C67100DE3305 /* nl */,
+				60B635371B0FC4E900C4DA63 /* zh-Hans */,
 			);
 			name = lifewithPD.html;
 			sourceTree = "<group>";
@@ -1491,6 +1586,7 @@
 			children = (
 				80C3BB5D1B024417005EB005 /* Base */,
 				60CAA8E71B03C67500DE3305 /* nl */,
+				60B635381B0FC4F300C4DA63 /* zh-Hans */,
 			);
 			name = online_resources.html;
 			sourceTree = "<group>";
@@ -1500,6 +1596,7 @@
 			children = (
 				80C3BB601B024423005EB005 /* Base */,
 				60CAA8E81B03C67B00DE3305 /* nl */,
+				60B635391B0FC4FA00C4DA63 /* zh-Hans */,
 			);
 			name = PD_fullconsent.html;
 			sourceTree = "<group>";
@@ -1509,6 +1606,7 @@
 			children = (
 				80C3BB631B024436005EB005 /* Base */,
 				60CAA8E91B03C68300DE3305 /* nl */,
+				60B6353A1B0FC4FE00C4DA63 /* zh-Hans */,
 			);
 			name = PrivacyPolicy.html;
 			sourceTree = "<group>";
@@ -1518,6 +1616,7 @@
 			children = (
 				80C3BB661B024448005EB005 /* Base */,
 				60CAA8EA1B03C68800DE3305 /* nl */,
+				60B6353B1B0FC50200C4DA63 /* zh-Hans */,
 			);
 			name = symptoms.html;
 			sourceTree = "<group>";
@@ -1527,6 +1626,7 @@
 			children = (
 				80C3BB691B024453005EB005 /* Base */,
 				60CAA8EB1B03C69000DE3305 /* nl */,
+				60B6353C1B0FC50600C4DA63 /* zh-Hans */,
 			);
 			name = whoisrunning.html;
 			sourceTree = "<group>";
@@ -1536,6 +1636,7 @@
 			children = (
 				80C3BB6C1B024459005EB005 /* Base */,
 				60CAA8EC1B03C69500DE3305 /* nl */,
+				60B6353D1B0FC50A00C4DA63 /* zh-Hans */,
 			);
 			name = whoisrunning_intro.html;
 			sourceTree = "<group>";

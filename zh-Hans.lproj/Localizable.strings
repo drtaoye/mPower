@@ -1,0 +1,119 @@
+/* No comment provided by engineer. */
+"Access to microphone is required for your Voice Recording Activity." = "“语音录制活动”需要访问麦克风。";
+
+/* Activity Completion */
+"Activity Completion" = "活动完成";
+
+/* No comment provided by engineer. */
+"Allowing notifications enables the app to show you reminders." = "允许通知可让应用程序向您显示提醒事项。";
+
+/* Dashboard */
+"Dashboard" = "图表汇总";
+
+/* No comment provided by engineer. */
+"Gait" = "步态";
+
+/* No comment provided by engineer. */
+"Medication Tracker Setup" = "药物跟踪器设置";
+
+/* No comment provided by engineer. */
+"Memory" = "记忆力";
+
+/* No comment provided by engineer. */
+"Memory Activity" = "记忆力活动";
+
+/* No comment provided by engineer. */
+"My Thoughts" = "我的想法";
+
+/* No comment provided by engineer. */
+"On the next screen, you will be prompted to grant mPower access to read and write some of your general and health information, such as height, weight and steps taken so you don't have to enter it again." = "在下一屏中，系统将提示您授权 mPower 读取和写入部分综合及健康信息（如身高、体重和所走步数），这样您就无需重复输入。";
+
+/* No comment provided by engineer. */
+"PD Survey" = "PD 调查";
+
+/* Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day. */
+"Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day." = "请每天分三个时段参与活动：服用帕金森药物前状态最差时、药效发挥后、当天的其他时段。";
+
+/* No comment provided by engineer. */
+"Please take a look at Parkinson mPower, a research study app about Parkinson Disease.  Download it for iPhone at http://apple.co/1FO7Bsi" = "快使用“帕金森 mPower”吧，这是一款与帕金森病相关的调查研究应用程序。  iPhone 适用版本下载链接：http://apple.co/1FO7Bsi";
+
+/* No comment provided by engineer. */
+"Recent Activity" = "最近的活动";
+
+/* Instruction text for tapping activity in Parkinson */
+"Rest your phone on a flat surface. Then use two fingers on the same hand to alternately tap the buttons that appear. Keep tapping for 20 seconds and time your taps to be as consistent as possible.
+
+Tap Next to begin the test." = "请将您的手机置于平面。 然后使用同一只手的两个手指交替轻点出现的按钮。 请在 20 秒内持续轻点并尽可能保持节奏一致。
+
+轻点“下一步”以开始测试。";
+
+/* Instruction text for memory activity in Parkinson */
+"Some of the flowers will light up one at a time. Tap those flowers in the same order they lit up.
+
+To begin, tap Next, then watch closely." = "其中的某些花朵将会亮起，但每次只亮起一朵。 请按照亮起的顺序轻点这些花朵。
+
+若要开始，请轻点“下一步”，然后留心观察。";
+
+/* No comment provided by engineer. */
+"Speed of finger tapping can reflect severity of motor symptoms in Parkinson disease. This activity measures your tapping speed. Your medical provider may measure this differently." = "手指轻点的速度可反映出帕金森病中活动症状的严重程度。 本活动测量您的轻点速度。 您的医疗服务提供方可能采用其他方式进行测量。";
+
+/* Steps */
+"Steps" = "步数";
+
+/* No comment provided by engineer. */
+"Take a deep breath and say “Aaaaah” into the microphone for as long as you can. Keep a steady volume so the audio bars remain blue." = "请深呼吸并对着麦克风说“啊啊啊”，时间越长越好。 保持平稳的声音大小以使音频条保持蓝色。";
+
+/* No comment provided by engineer. */
+"Tap Next to begin the test." = "轻点“下一步”以开始测试。";
+
+/* No comment provided by engineer. */
+"Tapping" = "轻点";
+
+/* No comment provided by engineer. */
+"Tapping Activity" = "轻点活动";
+
+/* No comment provided by engineer. */
+"Thank You!" = "谢谢！";
+
+/* No comment provided by engineer. */
+"The results of this activity can be viewed on the dashboard" = "本活动的结果可在图表汇总中查看";
+
+/* Dashboard tooltip item info text for Steps in Parkinson */
+"This graph shows how many steps you took each day, according to your phone's motion sensors. Remember that for this number to be accurate, you should have the phone on you as frequently as possible." = "该图表显示您每天所走的步数，通过手机的运动传感器计数。 谨记，要想获得精确的数据，请尽量随身携带手机。";
+
+/* Dashboard tooltip item info text for Activity Completion in Parkinson */
+"This graph shows the percent of Today's activities that you completed. You can complete more of your tasks in the Activities tab." = "该图表显示您今天活动完成的百分比情况。 您可以在“活动”标签页中完成更多的任务。";
+
+/* Dashboard tooltip item info text for Gait in Parkinson */
+"This plot combines several accelerometer-based measures for the Walking Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Walking measure, which may reflect variations and trends in your symptoms." = "该图合并了“步行活动”中基于加速感应器的几种测量值。 竖条的位置和长度表示这一天的测量范围。 长度或位置随时间所呈现的任何变化反映了“步行”测量中的变化和趋势，进而可反映症状中出现的变化和趋势。";
+
+/* Dashboard tooltip item info text for Voice in Parkinson */
+"This plot combines several microphone-based measures as a single score for the Voice Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Voice measure, which may reflect variations and trends in your symptoms." = "该图将基于麦克风的几种测量值合并为“语音活动”的单个分数。 竖条的位置和长度表示这一天的测量范围。 长度或位置随时间所呈现的任何变化反映了“语音”测量中的变化和趋势，进而可反映症状中出现的变化和趋势。";
+
+/* Dashboard tooltip item info text for Memory in Parkinson */
+"This plot shows the score you received each day for the Memory Game. The length and position of each vertical bar represents the range of scores for a given day. Any differences in length or position over time reflect variations and trends in your score, which may reflect variations and trends in your symptoms." = "该图显示您每天在“记忆力游戏”中的得分。 竖条的位置和长度表示这一天的分数范围。 长度或位置随时间所呈现的任何变化反映了分数中的变化和趋势，进而可反映症状中出现的变化和趋势。";
+
+/* Dashboard tooltip item info text for Tapping in Parkinson */
+"This plot shows your finger tapping speed each day as measured by the Tapping Interval Activity. The length and position of each vertical bar represents the range in the number of taps you made in 20 seconds for a given day. Any differences in length or position over time reflect variations and trends in your tapping speed, which may reflect variations and trends in your symptoms." = "该图显示您每天通过“轻点节奏活动”测量的手指轻点速度。 竖条的位置和长度表示这一天中 20 秒内轻点次数的范围。 长度或位置随时间所呈现的任何变化反映了轻点速度中的变化和趋势，进而可反映症状中出现的变化和趋势。";
+
+/* No comment provided by engineer. */
+"Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease." = "使用运动协处理器可让应用程序确定您的活动，有助于使研究更好地发现活动程度会对疾病产生怎样的影响。";
+
+/* No comment provided by engineer. */
+"Using your GPS enables the app to accurately determine distances travelled. Your actual location will never be shared." = "使用 GPS 可让应用程序更精确地测量行程距离。 您的实际位置绝不会被共享。";
+
+/* No comment provided by engineer. */
+"Voice" = "语音";
+
+/* No comment provided by engineer. */
+"Voice Activity" = "语音活动";
+
+/* No comment provided by engineer. */
+"Walking Activity" = "步行活动";
+
+/* No comment provided by engineer. */
+"Weekly Survey" = "周调查";
+
+/* You have completed the activity. */
+"You have completed the activity." = "您已完成该活动。";
+

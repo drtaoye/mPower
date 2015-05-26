@@ -1,0 +1,27 @@
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "4sK-U4-BAC"; */
+"4sK-U4-BAC.normalTitle" = "是";
+
+/* Class = "UILabel"; text = "Do you live in the United States of America?"; ObjectID = "48z-iB-W2P"; */
+"48z-iB-W2P.text" = "您的居住地是美国吗？";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "74M-Uo-Egc"; */
+"74M-Uo-Egc.normalTitle" = "否";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "AqU-JC-roc"; */
+"AqU-JC-roc.normalTitle" = "是";
+
+/* Class = "UILabel"; text = "Are you 18 or older?"; ObjectID = "Lit-9E-Lq9"; */
+"Lit-9E-Lq9.text" = "您年满 18 周岁了吗？";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "Mug-ig-11a"; */
+"Mug-ig-11a.normalTitle" = "否";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "OUK-PX-qmv"; */
+"OUK-PX-qmv.normalTitle" = "否";
+
+/* Class = "UILabel"; text = "Are you comfortable reading and writing on your iPhone in English?"; ObjectID = "oRB-tO-vMQ"; */
+"oRB-tO-vMQ.text" = "您习惯在 iPhone 上进行英文阅读和书写吗？";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "wcr-9T-wJL"; */
+"wcr-9T-wJL.normalTitle" = "是";
+

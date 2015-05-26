@@ -1,0 +1,44 @@
+{
+    "disease_name":"mPower",
+    "from_date":"December 2014",
+    "to_date":"January 2015",
+    "logo_name": "logo_research_institute",
+    "questions":
+    [
+     {
+     "title":"欢迎使用 mPower",
+     "details":"帕金森病调查研究",
+     },
+     
+     {
+     "title":"关于本研究",
+     "details":"关于研究_介绍",
+    
+     },
+     
+     {
+     "title":"关于本应用程序",
+     "details":"请轻点下方图像来观看 mPower 的视频简介。",
+     "video_name" : "Intro",
+     },
+     
+     {
+     "title":"如何进行本研究",
+     "details":"如何进行研究_介绍",
+     
+     },
+     
+     {
+     "title":"如何进行本研究",
+     "details":"反馈_介绍",
+    
+     },
+     
+     {
+     "title":"谁在开展本研究",
+     "details":"谁在开展_介绍",
+   
+     },
+     
+     ]
+}

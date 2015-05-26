@@ -1,0 +1,172 @@
+{
+    "documentProperties" :
+    {
+        "htmlDocument" : "PD_fullconsent",
+        "investigatorShortDescription": "Sage Bionetworks",
+        "investigatorLongDescription": "Sage Bionetworks 及其合作伙伴",
+        "htmlContent": "15sharing_rsch"
+    },
+    "quiz":
+    {
+        "questions":
+        [
+            {
+                "identifier": "instruction",
+                "prompt": "理解",
+                "text": "请完成一个简短测试以评估您对本研究的理解。",
+                "type": "instruction"
+            },
+            {
+                "identifier": "purpose",
+                "prompt": "本研究的目的是什么？",
+                "type": "singleChoiceText",
+                "textChoices":
+                [
+                 "了解帕金森病症状的波动情况",
+                 "治疗帕金森病"
+                ],
+                "expectedAnswer": "0"
+            },
+            {
+                "identifier": "deidentified",
+                "prompt": "我的姓名将与研究数据一并储存。",
+                "type": "boolean",
+                "expectedAnswer": "false"
+            },
+            {
+                "identifier": "access",
+                "prompt": "我可以选择局部或更广泛地共享加密的研究数据。",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            },
+            {
+                "identifier": "skipSurvey",
+                "prompt": "我可以跳过任何调查问题。",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            },
+            {
+                "identifier": "stopParticipating",
+                "prompt": "我可以随时停止参与该研究。",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            }
+        ],
+        "failureTitle": "再试一次",
+        "failureMessage": "很遗憾，您的一个或多个回答有误。您可以返回引导的起始页面以获取关于本研究的更多信息。",
+        "successTitle": "非常好！",
+        "successMessage": "您的回答全部正确。\n轻点“下一步”以继续。",
+        "allowedFailures": "0"
+
+    },
+    "sections":
+    [
+     {
+         "sectionType" : "onlyInDocument",
+         "sectionHtmlContent" : "PD_fullconsent"
+     },
+     {
+         "sectionType" : "overview",
+         "sectionSummary" : "此简单引导将解释该调查研究及其对参与者的生活可能产生的影响，并允许用户选择是否同意参与该研究。",
+         "sectionHtmlContent" : "1welcome"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "我们将测试您对本研究的理解",
+         "sectionSummary": "在引导的最后，我们将针对本研究相关细节询问您几个问题。",
+        "sectionImage": "quiz_image",
+        "sectionHtmlContent" : "2quiz_headsup"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "活动",
+         "sectionSummary": "为了更好地了解您的健康近况，您需要完成简单的活动以及回答相关调查问题。",
+         "sectionHtmlContent" : "3activities",
+         "sectionImage": "00_Blank_to_Activities",
+         "sectionAnimationUrl": "00_Blank_to_Activities"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "传感器数据",
+         "sectionSummary": "在用户同意的情况下，本研究还将收集 iPhone 及个人设备上的传感器数据。",
+         "sectionHtmlContent" : "4sensordata",
+         "sectionImage": "01_Activities_to_SensorData",
+         "sectionAnimationUrl":"01_Activities_to_SensorData"
+     },
+     {
+         "sectionType" : "dataGathering",
+         "sectionTitle": "数据处理",
+         "sectionSummary" : "您的研究数据（调查、活动和传感器）将与其他参与者的类似数据合并。",
+         "sectionHtmlContent" : "5dataprocessing",
+         "sectionAnimationUrl":"02_SensorData_to_DataGathering"
+     },
+     {
+         "sectionType" : "privacy",
+         "sectionTitle": "保护您的数据",
+         "sectionSummary": "我们将使用随机代码来替换您的姓名。数据将被加密并储存在安全的云端服务器中，服务器受 Sage Bionetworks 控制，以阻止不当访问。",
+         "sectionHtmlContent" : "6protectingdata"
+     },
+     {
+         "sectionType" : "dataUse",
+         "sectionTitle": "数据使用",
+         "sectionSummary": "您的加密数据将用于研究并可能与全球范围内的其他研究者共享。",
+         "sectionHtmlContent" : "7datause"
+     },
+     {
+         "sectionType" : "timeCommitment",
+         "sectionTitle" : "注意事项",
+         "sectionSummary": "本研究需要占用您每天大约 20 分钟时间。",
+         "sectionHtmlContent" : "8time"
+     },
+     {
+         "sectionType" : "studySurvey",
+         "sectionTitle" : "研究调查",
+         "sectionSummary": "您还需要回答与您症状相关的简短周调查和月调查，以跟踪任何的变化。",
+         "sectionHtmlContent" : "9study_survey"
+     },
+     {
+         "sectionType" : "studyTasks",
+         "sectionTitle" : "研究活动",
+         "sectionSummary": "您需要完成特定的任务，例如握住或使用 iPhone 时步行几步。",
+         "sectionHtmlContent" : "10study_task"
+     },
+     {
+         "sectionType" : "withdrawing",
+         "sectionTitle" : "退出",
+         "sectionSummary" : "参与本研究出于自愿。您可以随时撤销同意书并退出本研究。",
+         "sectionHtmlContent" : "11withdrawing"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "潜在好处",
+         "sectionSummary": "您可以查看您的数据并可能对您的健康趋势有更进一步的了解。",
+         "sectionHtmlContent" : "12potentialbenefits1",
+         "sectionImage": "10_PotentialBenifits",
+         "sectionAnimationUrl":"10_PotentialBenifits"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "注意事项",
+         "sectionSummary": "这不是治疗性研究。部分调查问题可能会让您感到不安，请跳过即可。",
+         "sectionHtmlContent" : "13issues_survey",
+         "sectionImage": "11_IssuesToConsider1",
+         "sectionAnimationUrl":"11_IssuesToConsider1"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "注意事项",
+         "sectionSummary": "参与本研究可能使您产生各种情绪。",
+         "sectionHtmlContent" : "14issues_mood",
+         "sectionImage": "12_IssuesToConsider2",
+         "sectionAnimationUrl":"12_IssuesToConside2"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "隐私风险",
+         "sectionSummary": "我们将竭力保护您的信息，但无法保证完全匿名。",
+         "sectionHtmlContent" : "15privacy_risk",
+         "sectionImage": "13_RiskToPrivacy",
+         "sectionAnimationUrl":"13_RiskToPrivacy"
+     }
+ ]
+}

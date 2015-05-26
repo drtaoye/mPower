@@ -1,0 +1,33 @@
+/* Class = "UILabel"; text = "Activity Completion"; ObjectID = "7MP-UI-cD8"; */
+"7MP-UI-cD8.text" = "活动完成";
+
+/* Class = "UILabel"; text = "Tap and drag to rearrange your graphs"; ObjectID = "Faz-yo-q5x"; */
+"Faz-yo-q5x.text" = "轻点和拖移来重新排列图表";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IG5-hN-Jl5"; */
+"IG5-hN-Jl5.normalTitle" = "按钮";
+
+/* Class = "UILabel"; text = "Today, February 17"; ObjectID = "Qsg-qd-APP"; */
+"Qsg-qd-APP.text" = "今天，2 月 17 日";
+
+/* Class = "UINavigationController"; title = "Dashboard"; ObjectID = "Y3q-0i-ptk"; */
+"Y3q-0i-ptk.title" = "图表汇总";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eEt-gP-2TY"; */
+"eEt-gP-2TY.text" = "标签";
+
+/* Class = "UILabel"; text = "Average Score: 222"; ObjectID = "eb9-Pe-RMI"; */
+"eb9-Pe-RMI.text" = "平均得分： 222";
+
+/* Class = "UITabBarItem"; title = "Dashboard"; ObjectID = "fVl-L3-Mlw"; */
+"fVl-L3-Mlw.title" = "图表汇总";
+
+/* Class = "UINavigationItem"; title = "Dashboard"; ObjectID = "oQf-cg-HNo"; */
+"oQf-cg-HNo.title" = "图表汇总";
+
+/* Class = "UINavigationItem"; title = "Dashboard"; ObjectID = "vev-uc-4M3"; */
+"vev-uc-4M3.title" = "图表汇总";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "w4R-X7-ZrR"; */
+"w4R-X7-ZrR.text" = "标签";
+
